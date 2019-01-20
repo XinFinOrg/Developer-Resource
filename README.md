@@ -1,1 +1,1 @@
-"# Developer-Resource" 
+## Developer Community Resource
