@@ -1,17 +1,11 @@
-## Developer Community Resource
-
-### Join the XDC development community
-
-We’ve set up this forum to allow Xinfin community developers, enthusiasts, and other participants to discuss, code, help document, report bugs, get advice and support to make the XDC ecosystem the blockchain for enterprise.
 <p><strong>Developer Resource Home </strong></p>
 <p><span style="font-weight: 400;">The communities and posts below include content that has been curated by XinFin team members, community members and projects building on Xinfin Platform. While some of these links include information specific to these projects, every resource also has information that can be generally applied to the Paltform. We welcome Community to <strong>&rdquo;EDIT&rdquo;</strong> and Simplify Content by adding more Tools, Article, Video, Plug and Play Scripts,Help file or documentation &nbsp;to make it more Simple and friendly for the developer community to build more DApps on XinFin Platform. </span></p>
 <p><span style="font-weight: 400;"><strong>Development Specific Communities:</strong> <br />Topic: Public Discuss on technical issue, Post Articel and Request for Enhancement, Techncal Contrinution <br /></span><a href="https://xinfin-public.slack.com/"><span style="font-weight: 400;">Slack Public Chat</span></a><span style="font-weight: 400;">, </span><a href="http://bit.do/Telegram-XinFinDev"><span style="font-weight: 400;">Telegram Chat</span></a><span style="font-weight: 400;">, </span><a href="https://xinfin.net"><span style="font-weight: 400;">Forum</span></a><span style="font-weight: 400;">, </span><a href="https://github.com/XinFinorg"><span style="font-weight: 400;">Github</span></a></p>
-<p><strong>General Communities: </strong><br /><span style="font-weight: 400;">Topic: Public Discuss on General Topic, Post Articel and Request for Enhancement, General Contrinution </span><strong><br /></strong><a href="https://twitter.com/XinFin_Official"><span style="font-weight: 400;">Twitter</span></a><span style="font-weight: 400;">, </span><a href="https://www.facebook.com/XinFinHybridBlockchain/"><span style="font-weight: 400;">Facebook</span></a><span style="font-weight: 400;">, </span><a href="https://www.reddit.com/r/xinfin/"><span style="font-weight: 400;">Reddit</span></a><span style="font-weight: 400;">, </span><a href="https://medium.com/xinfin"><span style="font-weight: 400;">Medium</span></a><span style="font-weight: 400;">, </span><a href="https://www.linkedin.com/company/xinfin/"><span style="font-weight: 400;">Linkedin</span></a><span style="font-weight: 400;">, </span><a href="https://www.meetup.com/members/270624533/"><span style="font-weight: 400;">Meetup</span></a><span style="font-weight: 400;">, </span><a href="https://www.youtube.com/channel/UCQaL6FixEQ80RJC0B2egX6g"><span style="font-weight: 400;">YouTube</span></a></p>
+<p><strong>General Communities: </strong><br /><span style="font-weight: 400;">Topic: Public Discuss on General Topic, Post Articel and Request for Enhancement, General Contrinution </span><strong><br /></strong><a href="https://twitter.com/XinFin_Official"><span style="font-weight: 400;">Twitter</span></a><span style="font-weight: 400;">, </span><a href="https://www.facebook.com/XinFinHybridBlockchain/"><span style="font-weight: 400;">Facebook</span></a><span style="font-weight: 400;">, </span><a href="https://www.reddit.com/r/xinfin/"><span style="font-weight: 400;">Reddit</span></a><span style="font-weight: 400;">, </span><a href="https://medium.com/xinfin"><span style="font-weight: 400;">Medium</span></a><span style="font-weight: 400;">, </span><a href="https://www.linkedin.com/company/xinfin/"><span style="font-weight: 400;">Linkedin</span></a><span style="font-weight: 400;">, </span><a href="https://www.meetup.com/members/270624533/"><span style="font-weight: 400;">Meetup</span></a><span style="font-weight: 400;">, </span><a href="https://www.youtube.com/channel/UCQaL6FixEQ80RJC0B2egX6g"><span style="font-weight: 400;">YouTube<br /></span></a></p>
 <ol>
-<ol>
-<li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Concepts</strong>: Smart Contract, XinFin DPoS Consensus, Hybrid Relayer Bridge<br /><br /></span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;"><strong>Tools</strong> / <strong>Reference</strong>: Wallet Refernce, Network Status Data, Blockchain Explorer, TestNet, </span><a href="https://xinfin.org/xdc-utility.php"><span style="font-weight: 400;">List of DApp on XinFin Platform<br /></span></a></li>
-<li style="font-weight: 400;"><strong>How to Setup Private Network </strong></li>
+<li style="font-weight: 400;"><strong>Concepts: Smart Contract, XinFin DPoS Consensus, Hybrid Relayer Bridge<br /><br /></strong></li>
+<li style="font-weight: 400;"><strong><span style="font-weight: 400;"><strong>Tools / Reference</strong>: Wallet Refernce, Network Status Data, Blockchain Explorer, TestNet, </span><a href="https://xinfin.org/xdc-utility.php"><span style="font-weight: 400;">List of DApp on XinFin Platform<br /></span></a></strong></li>
+<li style="font-weight: 400;"><strong><strong>How to Setup Private Network <br /></strong></strong>
 <ol>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Chose between open source private network</span></li>
 <ol>
@@ -21,13 +15,10 @@ We’ve set up this forum to allow Xinfin community developers, enthusiasts, and
 <li style="font-weight: 400;"><span style="font-weight: 400;">Corda</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Anything else</span></li>
 </ol>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Quick deploy docker scripts for running private network</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Quick deploy docker scripts for running private network</span><span style="font-weight: 400;">How to deploy your own assets on private Network</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">How to deploy your own assets on private Network</span></li>
 </ol>
-</ol>
-</ol>
-<p>&nbsp;</p>
-<ol>
+<strong><br /></strong></li>
 <li style="font-weight: 400;"><strong>Running a Public Network Node</strong></li>
 <ol>
 <li style="font-weight: 400;"><span style="font-weight: 400;">How to deploy a XinFin Public Masternode<br /><br /></span></li>
