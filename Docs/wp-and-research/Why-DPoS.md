@@ -1,6 +1,7 @@
 ## Why XinFin removed PoW and adopted DPoS?
 
-XinFin developed a scalable, secure and enterprise grade hybrid blockchain platform that combined the best features of Bitcoin, Ethereum and Quorum. XinFin&#39;s blockchain is a combination of permissioned and public chains that can nicely address security and scalability. XinFin Hybrid Blockchain platform has matured through continuous development and improvements.
+XinFin developed a scalable, secure and enterprise grade hybrid blockchain platform that combined the best features of Bitcoin, Ethereum and Quorum. XinFin&#39;s blockchain is a combination of permissioned and public chains that can nicely address security and scalability. XinFin Hybrid Blockchain platform has matured through continuous development and improvements.<br>
+
 **XinFin's Consensus Mechanism**
 
 XinFin removed traditional high electrical power consumption based mining mechanism called PoW (Proof of Work). Instead XinFin adopted an improved consensus methodology called PoS (Proof of Stake), and is now slowly moving towards Delegated Proof of Stake (DPoS).
@@ -16,7 +17,6 @@ Proof of Work or PoW relies on solving a cryptographic puzzle repetitively over 
 Proof of Stake doesn&#39;t need computers for repetitive solving of the cryptographic puzzle. Insead of miners, PoS requires some validators who will lock some of their crypto coins as stake or deposit. Anybody who holds crypto tokens can become a validator by processing a special type of transaction to lock their crypto fund.
 
 A group of validators takes part to propose and vote on the next block, and the weight of each validator&#39;s vote depends on the size of its stake. When the validators discover a block which they think can be added to the blockchain, they will validate it by placing a bet on it. The validators will get a reward proportionate to their bets.
-
 
 
 **How Delegated Proof of Stake works**
