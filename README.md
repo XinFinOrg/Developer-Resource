@@ -108,7 +108,7 @@ Enhancement and General Contributions<br>
   * Documentation<br>
   * APIs<br> 
   
-**6. Krama.com**
+**6. Kramaa.com IoT Stack**
   * About<br> 
   * Documentation<br>
   * APIs<br> 
