@@ -1,4 +1,3 @@
-"# Developer-Resource" 
 <p><strong>Developer Resource Home </strong></p>
 <p><span style="font-weight: 400;">The communities and posts below include content that has been curated by XinFin team members, community members and projects building on Xinfin Platform. While some of these links include information specific to these projects, every resource also has information that can be generally applied to the Paltform. We welcome Community to &rdquo;EDIT&rdquo; and Simplify Content by adding more Tools, Article, Video, Plug and Play Scripts,Help file or documentation &nbsp;to make it more Simple and friendly for the developer community to build more DApps on XinFin Platform. </span></p>
 <p><span style="font-weight: 400;">Development Specific Communities: </span></p>
