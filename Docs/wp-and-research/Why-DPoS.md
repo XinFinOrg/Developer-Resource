@@ -1,4 +1,6 @@
-## Why XinFin removed PoW and adopted DPoS?
+---
+Title: Why XinFin removed PoW and adopted DPoS?
+---
 
 XinFin developed a scalable, secure and enterprise grade hybrid blockchain platform that combined the best features of Bitcoin, Ethereum and Quorum. XinFin&#39;s blockchain is a combination of permissioned and public chains that can nicely address security and scalability. XinFin Hybrid Blockchain platform has matured through continuous development and improvements.<br>
 
