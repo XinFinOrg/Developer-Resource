@@ -74,7 +74,7 @@ Enhancement and General Contributions<br>
 
 #### Key Technical Articles Reference
 
-* [Why XinFin Remove POW and Replace DPoS](/Docs/wp-and-research/Why-DPoS.md)<br>
+* [Why XinFin Removed POW and Replaced it with DPoS](/Docs/wp-and-research/Why-DPoS.md)<br>
 * [How DPoS works](/Docs/Concepts/DPOS.md)<br>
 * [XinFin successfully tested 2000 TPS](https://medium.com/xinfin/enhancing-transaction-speed-in-xinfin-network-31293b0e73de)
 * [Comparing XinFin with ETH, Zilliqa, Bitcoin and Ripple](https://medium.com/xinfin/https-medium-com-dzentraz-xinfin-xdc-protocol-enters-the-foray-amongst-the-greats-9a4748d008e4) 
