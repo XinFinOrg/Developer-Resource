@@ -18,7 +18,7 @@ Similar configuration is applicable for Microsoft Azure Cloud network.
 
 This guide will cater to the following system configurations:
 
-<img src = "https://github.com/punit-agarwal/XinFin-Dev-Portal/blob/master/Setup/raw/req1.png">
+<img src = "https://github.com/XinFinOrg/Developer-Resource/blob/master/Docs/Setup/raw/req1.png">
 
 ### **About XinFin Masternode**
 
