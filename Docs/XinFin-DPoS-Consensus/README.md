@@ -1,1 +1,0 @@
-### XinFin DPoS Consensus
