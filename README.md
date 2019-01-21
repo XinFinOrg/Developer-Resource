@@ -35,8 +35,8 @@ Enhancement and General Contributions<br>
     * Hybrid Relayer Bridge
   
 2. Tools / Reference:
-    * [Wallet](https://ewallet.xinfin.org)<br>
-    * [Network Status Data](https://status.xinfin.org/)<br>
+    * [Wallet](https://xinfin.network)<br>
+    * [Network Status Data](https://xinfin.network/)<br>
     * [Blockchain Explorer](http://xinfin.info/)<br>
     * TestNet<br>
     * [List of DApp on XinFin Platform](https://xinfin.org/xdc-utility.php)
@@ -96,22 +96,22 @@ Enhancement and General Contributions<br>
 **3. TradeFinex.org**
   * About<br> 
   * Documentation<br>
-  * APIs<br> 
+  * [API reference](https://xinfinorg.github.io/TradeFinex_API/)<br> 
   
 **4. MyContract.co**
-  * About<br> 
+  * [About](https://mycontract.co/#features)<br> 
   * Documentation<br>
-  * APIs<br> 
+  * [API reference](http://api.mycontract.co:3001/#introduction)<br> 
   
 **5. Alphaex.net**
-  * About<br> 
+  * [About](https://alphaex.net/aboutus)<br> 
   * Documentation<br>
-  * APIs<br> 
+  * [API reference](https://alphaex.net/api)<br> 
   
 **6. Kramaa.com IoT Stack**
-  * About<br> 
+  * [About](https://kramaa.com/)<br> 
   * Documentation<br>
-  * APIs<br> 
+  * [API reference](https://alphaex.net/api)<br>
 
 **7. Blockchain Academy/Blockchain Education**
   * About<br> 
@@ -121,9 +121,9 @@ Enhancement and General Contributions<br>
 **8. Land Registry**
   * About<br> 
   * Documentation<br>
-  * APIs<br> 
+  * [API reference](http://land-registry.xinfin.org/docs/)<br>
 
 **9. AirnetzCharter.com**
-  * About<br> 
+  * [About](http://airnetzcharter.com/)<br>
   * Documentation<br>
   * APIs<br> 
