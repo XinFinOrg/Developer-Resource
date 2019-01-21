@@ -28,32 +28,34 @@ Enhancement and General Contributions<br>
 #### **User OnBoarding and Learning Resources**
 
 1. Concepts:
-    * Smart Contract<br>
-    * XinFin DPoS Consensus<br>
+    * [Smart Contract](/Docs/Concepts/SmartContracts.md)<br>
+    * [XinFin DPoS Consensus](/Docs/Concepts/XinFinDPoS)<br>
     * Hybrid Relayer Bridge
   
 2. Tools / Reference:
-    * Wallet<br>
-    * Network Status Data<br>
-    * Blockchain Explorer<br>
+    * [Wallet](ewallet.xinfin.org)<br>
+    * [Network Status Data](https://status.xinfin.org/)<br>
+    * [Blockchain Explorer](http://xinfin.info/)<br>
     * TestNet<br>
     * [List of DApp on XinFin Platform](https://xinfin.org/xdc-utility.php)
 
 #### How to Setup Private Network
 
 1. Choose between open source private networks
-  a. XinFin Private (QuorumFork)<br>
+  a. [XinFin Private (QuorumFork)](/Docs/Setup/XDC01-Docker-Node-Setup.md)<br>
   b. XinFin Private (Geth Fork)<br>
   c. Hyperledger<br>
   d. Corda<br>
   e. Anything else<br> 
 
-2. Quick deploy docker scripts for running a private network<br>
+2. [Quick deploy docker scripts for running a private network](/Docs/Setup/XDC01-Docker-Node-Setup.md)<br>
 
-3. How to deploy your own assets on private Network
+3. Build with XinFin on private Network
+   a. [Deploy Smart Contracts](/Docs/Build/Deploy-Smart-Contracts.md)
+   b. [Create DAPP Environment](/Docs/Build/DApp-Environment.md)
 
 4.  Running a Public Network Node<br>
-  a. How to deploy a XinFin Public Masternode
+  a. [How to deploy a XinFin Public Masternode](/Docs/Setup/Masternodes.md)
   
 5.  Running a Relayer Bridge (Interoperability)
 
@@ -70,56 +72,56 @@ Enhancement and General Contributions<br>
 
 #### Key Technical Articles Reference
 
-* Why XinFin Remove POW and Replace DPoS<br>
-* DPoS: Future of Blockchain<br>
-* How DPoS works<br>
-* How to create, compile and deploy smart-contract on XinFin Network<br>
+* [Why XinFin Remove POW and Replace DPoS](/Docs/wp-and-research/Why-DPoS.md)<br>
+* [How DPoS works](/Docs/Concepts/DPOS.md)<br>
+* [XinFin successfully tested 2000 TPS](https://medium.com/xinfin/enhancing-transaction-speed-in-xinfin-network-31293b0e73de)
+* [Comparing XinFin with ETH, Zilliqa, Bitcoin and Ripple](https://medium.com/xinfin/https-medium-com-dzentraz-xinfin-xdc-protocol-enters-the-foray-amongst-the-greats-9a4748d008e4) 
 * KYC with Masternode and wallet, inviting more institution to join XinFin Network<br>
 * How to tokenize Bond on XDC Network
 
 #### **List of DApps that are (or will be) using XinFin Blockchain:**
 
 **1. InFactor.io**
-  * Instructions<br> 
-  * Documentation<br>
-  * APIs<br> 
+  * [About](/Docs/DAPP/infactor.io/about-infactor.md)<br> 
+  * [Setup](/Docs/DAPP/infactor.io/Setup-infactor.md)<br>
+  * [API reference](http://infactor.io/docs/#introduction)<br> 
   
 **2. TurantPay**
-  * Instructions<br> 
+  * About<br> 
   * Documentation<br>
   * APIs<br> 
   
 **3. TradeFinex.org**
-  * Instructions<br> 
+  * About<br> 
   * Documentation<br>
   * APIs<br> 
   
 **4. MyContract.co**
-  * Instructions<br> 
+  * About<br> 
   * Documentation<br>
   * APIs<br> 
   
 **5. Alphaex.net**
-  * Instructions<br> 
+  * About<br> 
   * Documentation<br>
   * APIs<br> 
   
 **6. Krama.com**
-  * Instructions<br> 
+  * About<br> 
   * Documentation<br>
   * APIs<br> 
 
 **7. Blockchain Academy/Blockchain Education**
-  * Instructions<br> 
+  * About<br> 
   * Documentation<br>
   * APIs<br> 
 
 **8. Land Registry**
-  * Instructions<br> 
+  * About<br> 
   * Documentation<br>
   * APIs<br> 
 
 **9. AirnetzCharter.com**
-  * Instructions<br> 
+  * About<br> 
   * Documentation<br>
   * APIs<br> 
