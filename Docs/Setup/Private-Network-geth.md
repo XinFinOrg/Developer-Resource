@@ -16,12 +16,12 @@ You need to have Geth installed. The easiest way to do this is through homebrew.
 
 1.  Open Terminal and [install homebrew](https://brew.sh/)
 
-    ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+        ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 2. Now [install geth](https://www.ethereum.org/cli)
 
-    brew tap ethereum/ethereum
-    brew install ethereum
+        brew tap ethereum/ethereum
+        brew install ethereum
 
 ### **Create Genesis File**
 
@@ -30,12 +30,12 @@ of that initial block and subsequently the rest of the blockchain.
 
 1.  Create a directory to hold your network files
 
-    mkdir my-eth-chain
-    cd my-eth-chain
+        mkdir my-eth-chain
+        cd my-eth-chain
 
 2. Create your genesis file
 
-    touch myGenesis.json
+        touch myGenesis.json
 
 3. Open your genesis file and paste the following
 
@@ -198,18 +198,3 @@ eth.getBlock(“latest”)<br> eth.blockNumber <br>
 web3.eth.getBlock(BLOCK_NUMBER).hash<br> eth.syncing<br> debug.verbosity(6) //highest logging level, 3 is default
 
 **Share your thoughts with us in any of the community channels linked below!**
-
-### Connect
-
-[Slack](https://www.mercuryprotocol.com/slack)**[Telegram](https://t.me/joinchat/G47gcA8f5EYFfEsILw7H2w)**[Twitter](https://twitter.com/MercuryProtocol)**[Reddit](https://www.reddit.com/r/MercuryProtocol/)**[Facebook](https://www.facebook.com/Mercury-Protocol-279018119268964/)**[LinkedIn](https://www.linkedin.com/company/18270256/)
-
-[Learn more about the Mercury Protocol](http://www.mercuryprotocol.com/)<br>
-[Read the Mercury Protocol whitepaper](http://www.mercuryprotocol.com/files/Mercury_Protocol_whitepaper.pdf)
-
-* [Ethereum](https://medium.com/tag/ethereum?source=post)
-
-### [Mercury Protocol](https://medium.com/@MercuryProtocol)
-
-### [mercuryprotocol](https://medium.com/mercuryprotocol?source=footer_card)
-
-Mercury Protocol is the future of communications, powered by blockchain.
