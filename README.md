@@ -1,5 +1,3 @@
-### <br> 
-
 The communities and posts below include content that has been curated by XinFin
 team members, community members and projects building on Xinfin Platform. While
 some of these links include information specific to these projects, every
@@ -29,11 +27,17 @@ Enhancement and General Contributions<br>
 
 #### **User OnBoarding and Learning Resources**
 
-1.  Concepts:****a. Smart Contract<br> b. XinFin DPoS Consensus<br> c. Hybrid
-Relayer Bridge
-1.  Tools / Reference:****a. Wallet<br> b. Network Status Data<br> c. Blockchain
-Explorer<br> d. TestNet<br> e. [List of DApp on XinFin
-Platform](https://xinfin.org/xdc-utility.php)
+1. Concepts:
+    * Smart Contract<br>
+    * XinFin DPoS Consensus<br>
+    * Hybrid Relayer Bridge
+  
+2. Tools / Reference:
+    * Wallet<br>
+    * Network Status Data<br>
+    * Blockchain Explorer<br>
+    * TestNet<br>
+    * [List of DApp on XinFin Platform](https://xinfin.org/xdc-utility.php)
 
 #### How to Setup Private Network
 
