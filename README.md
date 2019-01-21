@@ -9,9 +9,10 @@ and friendly for the developer community to build more DApps on XinFin Platform.
 #### Development Specific Communities:
 
 Topic: Public discussions on the technical issues, post articles and request for
-Enhancements and Technical Contributions<br> [Slack Public
-Chat](https://xinfin-public.slack.com/), [Telegram
-Chat](http://bit.do/Telegram-XinFinDev), [Forum](https://xinfin.net),
+Enhancements and Technical Contributions<br> 
+[Slack Public Chat](https://xinfin-public.slack.com/),
+[Telegram Chat](http://bit.do/Telegram-XinFinDev),
+[Forum](https://xinfin.net),
 [Github](https://github.com/XinFinorg)
 
 #### General Communities:
@@ -20,7 +21,8 @@ Topic: Public discussions on general topics, post articles and Request for
 Enhancement and General Contributions<br>
 [Twitter](https://twitter.com/XinFin_Official),
 [Facebook](https://www.facebook.com/XinFinHybridBlockchain/),
-[Reddit](https://www.reddit.com/r/xinfin/), [Medium](https://medium.com/xinfin),
+[Reddit](https://www.reddit.com/r/xinfin/), 
+[Medium](https://medium.com/xinfin),
 [Linkedin](https://www.linkedin.com/company/xinfin/),
 [Meetup](https://www.meetup.com/members/270624533/),
 [YouTube](https://www.youtube.com/channel/UCQaL6FixEQ80RJC0B2egX6g)
@@ -41,7 +43,7 @@ Enhancement and General Contributions<br>
 
 #### How to Setup Private Network
 
-1. Choose between open source private networks
+1. Choose between open source private networks<br>
   a. [XinFin Private (QuorumFork)](/Docs/Setup/XDC01-Docker-Node-Setup.md)<br>
   b. XinFin Private (Geth Fork)<br>
   c. Hyperledger<br>
@@ -50,8 +52,8 @@ Enhancement and General Contributions<br>
 
 2. [Quick deploy docker scripts for running a private network](/Docs/Setup/XDC01-Docker-Node-Setup.md)<br>
 
-3. Build with XinFin on private Network
-   a. [Deploy Smart Contracts](/Docs/Build/Deploy-Smart-Contracts.md)
+3. Build with XinFin on private Network<br>
+   a. [Deploy Smart Contracts](/Docs/Build/Deploy-Smart-Contracts.md)<br>
    b. [Create DAPP Environment](/Docs/Build/DApp-Environment.md)
 
 4.  Running a Public Network Node<br>
