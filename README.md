@@ -31,11 +31,11 @@ Enhancement and General Contributions<br>
 
 1. Concepts:
     * [Smart Contract](/Docs/Concepts/SmartContracts.md)<br>
-    * [XinFin DPoS Consensus](/Docs/Concepts/XinFinDPoS)<br>
+    * [XinFin DPoS Consensus](/Docs/Concepts/XinFinDPoS.md)<br>
     * Hybrid Relayer Bridge
   
 2. Tools / Reference:
-    * [Wallet](ewallet.xinfin.org)<br>
+    * [Wallet](https://ewallet.xinfin.org)<br>
     * [Network Status Data](https://status.xinfin.org/)<br>
     * [Blockchain Explorer](http://xinfin.info/)<br>
     * TestNet<br>
@@ -53,7 +53,7 @@ Enhancement and General Contributions<br>
 2. [Quick deploy docker scripts for running a private network](/Docs/Setup/XDC01-Docker-Node-Setup.md)<br>
 
 3. Build with XinFin on private Network<br>
-   a. [Deploy Smart Contracts](/Docs/Build/Deploy-Smart-Contracts.md)<br>
+   a. [Deploy Smart Contracts](/Docs/Build/Deploy-Smart-Contract.md)<br>
    b. [Create DAPP Environment](/Docs/Build/DApp-Environment.md)
 
 4.  Running a Public Network Node<br>
