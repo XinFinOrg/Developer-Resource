@@ -30,7 +30,9 @@ Enhancement and General Contributions<br>
 #### **User OnBoarding and Learning Resources**
 
 1. Concepts:
+    * [Hybrid Blockchain](/Docs/Concepts/Hybrid-Blockchain.md)<br>
     * [Smart Contract](/Docs/Concepts/SmartContracts.md)<br>
+    * [How DPoS works](/Docs/Concepts/DPOS.md)<br>
     * [XinFin DPoS Consensus](/Docs/Concepts/XinFinDPoS.md)<br>
     * Hybrid Relayer Bridge
   
@@ -41,15 +43,16 @@ Enhancement and General Contributions<br>
     * [XDCe Explorer](https://etherscan.io/token/0x41ab1b6fcbb2fa9dced81acbdec13ea6315f2bf2?a=)<br>
     * [TestNet Explorer](test.xinfin.network)<br>
     * [List of DApp on XinFin Platform](https://xinfin.org/xdc-utility.php)
+    * [Technical White Paper](https://www.xinfin.io/pdf/whitepaper/The%20XDC%20Protocol%20-%20Tech%20Whitepaper%20by%20Xinfin%20Organization%20V1.0.pdf)
 
 #### How to Setup Private Network
 
 1. Choose between open source private networks<br>
   a. [XinFin Private (QuorumFork)](/Docs/Setup/XDC01-Docker-Node-Setup.md)<br>
-  b. XinFin Private (Geth Fork)<br>
+  b. [XinFin Private (Geth Fork)](/Docs/Setup/Private-Network-geth.md)<br>
   c. Hyperledger<br>
   d. Corda<br>
-  e. Anything else<br> 
+  e. Anything else<br>
 
 2. [Quick deploy docker scripts for running a private network](/Docs/Setup/XDC01-Docker-Node-Setup.md)<br>
 
@@ -76,7 +79,6 @@ Enhancement and General Contributions<br>
 #### Key Technical Articles Reference
 
 * [Why XinFin Removed POW and Replaced it with DPoS](/Docs/wp-and-research/Why-DPoS.md)<br>
-* [How DPoS works](/Docs/Concepts/DPOS.md)<br>
 * [XinFin successfully tested 2000 TPS](https://medium.com/xinfin/enhancing-transaction-speed-in-xinfin-network-31293b0e73de)
 * [Comparing XinFin with ETH, Zilliqa, Bitcoin and Ripple](https://medium.com/xinfin/https-medium-com-dzentraz-xinfin-xdc-protocol-enters-the-foray-amongst-the-greats-9a4748d008e4) 
 * KYC with Masternode and wallet, inviting more institution to join XinFin Network<br>
