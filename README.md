@@ -35,10 +35,11 @@ Enhancement and General Contributions<br>
     * Hybrid Relayer Bridge
   
 2. Tools / Reference:
-    * [Wallet](https://xinfin.network)<br>
+    * [Wallet](https://www.xdcwallet.com/)<br>
     * [Network Status Data](https://xinfin.network/)<br>
-    * [Blockchain Explorer](http://xinfin.info/)<br>
-    * TestNet<br>
+    * [XDC Explorer](http://xinfin.info/)<br>
+    * [XDCe Explorer](https://etherscan.io/token/0x41ab1b6fcbb2fa9dced81acbdec13ea6315f2bf2?a=)<br>
+    * [TestNet Explorer](test.xinfin.network)<br>
     * [List of DApp on XinFin Platform](https://xinfin.org/xdc-utility.php)
 
 #### How to Setup Private Network
