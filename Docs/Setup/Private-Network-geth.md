@@ -196,5 +196,3 @@ miner.setEtherbase(“0xae13d41d66af28380c7af6d825ab557eb271ffff”)<br>
 miner.start()<br> miner.stop()<br> miner.hashrate<br> eth.getBlock(0)<br>
 eth.getBlock(“latest”)<br> eth.blockNumber <br>
 web3.eth.getBlock(BLOCK_NUMBER).hash<br> eth.syncing<br> debug.verbosity(6) //highest logging level, 3 is default
-
-**Share your thoughts with us in any of the community channels linked below!**
