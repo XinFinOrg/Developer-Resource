@@ -30,17 +30,16 @@
 
 .nav-sidebar .nav-item ul{color: rgba(0,0,0,0.6);list-style-type:disc;margin-left:10px;padding-left:10px;}
 
+.sidebar-body{padding-right:0px;}
+.sidebar .nav-sidebar {width:100%;}
 
-.forum-icon {
-	content: "";
-	padding-left:10px;
-	float: left;
-	margin: 0 6px 0 0;
-	background-image: url(../images/forum-icon.png);
-	background-repeat: no-repeat;
-	background-position: left 13px;
+.nav-sidebar .nav-item {width:100%}
+
+@-moz-document url-prefix() {
+.nav-sidebar {
+    flex-direction: row;
 }
-
+}
 
 @media (max-width: 767.98px){.topBar{display:none;}.mobile-view{display:block!important;}}
 .mobile-view{display:none;}

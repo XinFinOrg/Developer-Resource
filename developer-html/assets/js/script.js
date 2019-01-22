@@ -1,13 +1,10 @@
 'use strict';
 
-$(function() {
-	
+$(function() {	
     page.config({
-
-    smoothScroll: true,
-
+    	smoothScroll: true,
+	});
 });
-
 
 
 
@@ -20,7 +17,6 @@ $('.navbar .btn-success').on('click', function() {
       eventLabel: 'Buy',
       transport: 'beacon'
     });
-});
 });
 
 	
@@ -78,4 +74,5 @@ $('a.scrollto').on('click', function(e){
   });
 
   return $;
-})(jQuery);
+});
+//})(jQuery);
