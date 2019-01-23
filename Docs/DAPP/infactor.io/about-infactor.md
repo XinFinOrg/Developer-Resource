@@ -8,7 +8,7 @@ Title: About inFactor.io
 
 The Hybrid network architecture of XinFin allows the enterprises and institutions to host sensitive data in a private network and only relay relevant information of it on the XinFin public network.
 
-**XDC Protocol enables the data from invoices to be standardised and shared over ISO20022 format for Invoices yet giving it an immutability and verification through cryptographic hashes.** [Refer](https://www.iso20022.org/trade_services_messages.page)
+**XDC Protocol enables the data from invoices to be standardised and shared over ISO20022 format for Invoices yet giving it immutability and verification through cryptographic hashes.** [Refer](https://www.iso20022.org/trade_services_messages.page)
 
 XDC Protocol also allows buyers, sellers and financiers to quickly swap between any FIAT currency using XDC Protocol as a relay bridge thereby enabling instant liquidity and counterparty risk mitigation.
 
