@@ -67,22 +67,22 @@ the errors that come from a person making the contract who can miss some
 conditions but in smart contracts, it will result in an error, therefore, all
 the conditions are put in a detailed form.
 
-5.Speed: If anyone would read documents or contracts manually it would take a
+ 5.Speed: If anyone would read documents or contracts manually it would take a
 chunk of time, whereas smart contracts are a bunch of code used to automate task
-and hence saving hours of time.
+and hence save hours of time.
 
-6.Savings: Smart contracts can help to save a lot of money as it removes the
+ 6.Savings: Smart contracts can help to save a lot of money as it removes the
 presence of an intermediary. For instance, you would pay a lawyer for your case
 but in smart contracts, it’s all in your hand as the code is the law.
 
-7.Safety: Cryptographically encryption keeps your data safe. Since they match
+ 7.Safety: Cryptographically encryption keeps your data safe. Since they match
 the highest safety standards, the level of protection involved in them allows
 them to be secure to use for critical processes.
 
 #### **PROBLEMS**
 
 **1.No Business Ready Solution**<br>
-A major problem of smart contracts is that you
+The major problem with smart contracts is that you
 simply cannot replace it with an upgraded one otherwise you will lose all of
 your smart contract bound information from the blockchain.
 
@@ -93,7 +93,7 @@ caused a breach of about $150 million.
 account for implied expectations or deal with unforeseen circumstances.
 
 There is also a problem of forgery which can be seen after receiving the product
-but that transaction can’t be replaced what to do now?
+but that transaction can’t be replaced. What to do now?
 
 Eg: Someone was selling a baseball with a sign of someone famous but after
 receiving the ball you see that the signature was forged a long time ago, under
@@ -117,11 +117,11 @@ the smart contract which loses its main property of **trustless execution.**
 #### **PROBLEM SOLUTION**
 
 1. We can solve some of the problems with smart contracts like upgrade problems
-by using modular smart contracts. So we can have modular.sol files while
+by using modular smart contracts. So, we can have modular.sol files while
 building on Ethereum that can be easily upgraded without losing information.
 
 2. Using **Delegatecall-based proxies** for contract upgrading. In delegatecall
-logic and data are kept in separate contracts, but the data contract (the proxy)
+logic data are kept in separate contracts, but the data contract (the proxy)
 calls the logic contract through delegatecall. It is difficult to apply the
 delegatecall-based proxy pattern correctly. The proxy pattern requires that
 memory layouts stay consistent between contract and compiler upgrades. A
@@ -129,20 +129,20 @@ developer unfamiliar with EVM internals can easily introduce critical bugs
 during an upgrade.
 
 3. The legal issues of smart contracts can only be solved over time as they are
-in their initial development stage it will require time.
+in their initial development stage; it will require time.
 
 4. The major problem of writing smart contracts can be solved by not
 implementing Turing-complete smart contracts.
 
-5. And the oracle problem can be solved maybe by a consensus protocol in the
+5. And, the oracle problem can be solved maybe by a consensus protocol in the
 community itself which will help to see how things are in the physical world.
 
 #### **APPLICATION OF SMART CONTRACTS**
 
 1.**Digital Identity:** Smart contracts allow users to own and control their digital
 identity i.ie data, reputation and assets. It provides enterprises with the
-opportunity to seamlessly know their customer while individuals may not disclose
-sensitive data which reduces the facilitating frictionless know-your-customer
+opportunity to seamlessly know their customers while individuals may not disclose
+sensitive data which reduces the frictionless know-your-customer
 requirements.
 
 2.**Financial Data Recording:** Financial organizations can utilize smart contracts
@@ -178,7 +178,7 @@ is really exciting.
 
 A big problem lies with the organizations as well, as they are adopting
 blockchains due to the buzzword but not considering how to use it to its
-fullest, if organizations manage that beforehand then maybe writing smart
+fullest. If organizations manage that beforehand then maybe writing smart
 contracts can get easier.
 
 But the actual problem still lies in writing smart contracts and gaining the
