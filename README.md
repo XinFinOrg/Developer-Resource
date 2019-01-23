@@ -30,30 +30,34 @@ Enhancement and General Contributions<br>
 #### **User OnBoarding and Learning Resources**
 
 1. Concepts:
+    * [Hybrid Blockchain](/Docs/Concepts/Hybrid-Blockchain.md)<br>
     * [Smart Contract](/Docs/Concepts/SmartContracts.md)<br>
-    * [XinFin DPoS Consensus](/Docs/Concepts/XinFinDPoS)<br>
+    * [How DPoS works](/Docs/Concepts/DPOS.md)<br>
+    * [XinFin DPoS Consensus](/Docs/Concepts/XinFinDPoS.md)<br>
     * Hybrid Relayer Bridge
   
 2. Tools / Reference:
-    * [Wallet](ewallet.xinfin.org)<br>
-    * [Network Status Data](https://status.xinfin.org/)<br>
-    * [Blockchain Explorer](http://xinfin.info/)<br>
-    * TestNet<br>
+    * [Wallet](https://www.xdcwallet.com/)<br>
+    * [Network Status Data](https://xinfin.network/)<br>
+    * [XDC Explorer](http://xinfin.info/)<br>
+    * [XDCe Explorer](https://etherscan.io/token/0x41ab1b6fcbb2fa9dced81acbdec13ea6315f2bf2?a=)<br>
+    * [TestNet Explorer](test.xinfin.network)<br>
     * [List of DApp on XinFin Platform](https://xinfin.org/xdc-utility.php)
+    * [Technical White Paper](https://www.xinfin.io/pdf/whitepaper/The%20XDC%20Protocol%20-%20Tech%20Whitepaper%20by%20Xinfin%20Organization%20V1.0.pdf)
 
 #### How to Setup Private Network
 
 1. Choose between open source private networks<br>
   a. [XinFin Private (QuorumFork)](/Docs/Setup/XDC01-Docker-Node-Setup.md)<br>
-  b. XinFin Private (Geth Fork)<br>
+  b. [XinFin Private (Geth Fork)](/Docs/Setup/Private-Network-geth.md)<br>
   c. Hyperledger<br>
   d. Corda<br>
-  e. Anything else<br> 
+  e. Anything else<br>
 
 2. [Quick deploy docker scripts for running a private network](/Docs/Setup/XDC01-Docker-Node-Setup.md)<br>
 
 3. Build with XinFin on private Network<br>
-   a. [Deploy Smart Contracts](/Docs/Build/Deploy-Smart-Contracts.md)<br>
+   a. [Deploy Smart Contracts](/Docs/Build/Deploy-Smart-Contract.md)<br>
    b. [Create DAPP Environment](/Docs/Build/DApp-Environment.md)
 
 4.  Running a Public Network Node<br>
@@ -74,8 +78,7 @@ Enhancement and General Contributions<br>
 
 #### Key Technical Articles Reference
 
-* [Why XinFin Remove POW and Replace DPoS](/Docs/wp-and-research/Why-DPoS.md)<br>
-* [How DPoS works](/Docs/Concepts/DPOS.md)<br>
+* [Why XinFin Removed POW and Replaced it with DPoS](/Docs/wp-and-research/Why-DPoS.md)<br>
 * [XinFin successfully tested 2000 TPS](https://medium.com/xinfin/enhancing-transaction-speed-in-xinfin-network-31293b0e73de)
 * [Comparing XinFin with ETH, Zilliqa, Bitcoin and Ripple](https://medium.com/xinfin/https-medium-com-dzentraz-xinfin-xdc-protocol-enters-the-foray-amongst-the-greats-9a4748d008e4) 
 * KYC with Masternode and wallet, inviting more institution to join XinFin Network<br>
@@ -96,22 +99,22 @@ Enhancement and General Contributions<br>
 **3. TradeFinex.org**
   * About<br> 
   * Documentation<br>
-  * APIs<br> 
+  * [API reference](https://xinfinorg.github.io/TradeFinex_API/)<br> 
   
 **4. MyContract.co**
-  * About<br> 
+  * [About](https://mycontract.co/#features)<br> 
   * Documentation<br>
-  * APIs<br> 
+  * [API reference](http://api.mycontract.co:3001/#introduction)<br> 
   
 **5. Alphaex.net**
-  * About<br> 
+  * [About](https://alphaex.net/aboutus)<br> 
   * Documentation<br>
-  * APIs<br> 
+  * [API reference](https://alphaex.net/api)<br> 
   
-**6. Krama.com**
-  * About<br> 
+**6. Kramaa.com IoT Stack**
+  * [About](https://kramaa.com/)<br> 
   * Documentation<br>
-  * APIs<br> 
+  * [API reference](https://alphaex.net/api)<br>
 
 **7. Blockchain Academy/Blockchain Education**
   * About<br> 
@@ -121,9 +124,9 @@ Enhancement and General Contributions<br>
 **8. Land Registry**
   * About<br> 
   * Documentation<br>
-  * APIs<br> 
+  * [API reference](http://land-registry.xinfin.org/docs/)<br>
 
 **9. AirnetzCharter.com**
-  * About<br> 
+  * [About](http://airnetzcharter.com/)<br>
   * Documentation<br>
   * APIs<br> 
