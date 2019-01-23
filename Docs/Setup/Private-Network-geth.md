@@ -80,7 +80,7 @@ pretty quick, but you should still set this value pretty high to avoid hitting t
 
 Here you can allocate ETH to specific addresses. This won’t create the account for you, so make sure its an account you
 already have control of. You will need to add the account to your private chain in order to use it, and to do that you
-need access to the keystore/utc file. For example, Geth and [MyEtherWallet](https://www.myetherwallet.com/)give you access to this file when you create an
+need access to the keystore/utc file. For example, Geth and [MyEtherWallet](https://www.myetherwallet.com/) give you access to this file when you create an
 account, but [Metamask](https://metamask.io/) and [Coinbase](https://www.coinbase.com/) do not. The addresses provided are
 not real addresses, they are just examples. Here we allocate 100,000 and 120,000 ETH respectively.
 
