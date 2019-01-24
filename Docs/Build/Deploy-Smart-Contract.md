@@ -61,7 +61,7 @@ To deploy the contract, move to the Run tab in the right side panel. Here, selec
 
 ![Compile tab](/Docs/image2.png)
 
-Immediately a prompt from Metamask to confirm the transaction for deploying the smart contract on the network. Here, change the **Gas price to 0** (since the private network is designed to have contracts with 0 gas price) by selecting the Edit option and setting the gas price to 0.
+Immediately, sends a prompt from Metamask to confirm the transaction for deploying the smart contract on the network. Here, change the **Gas price to 0** (since the private network is designed to have contracts with 0 gas price) by selecting the Edit option and setting the gas price to 0.
 
 ![Metamask confirmation tab](/Docs/image1.png)
 
@@ -69,7 +69,7 @@ Then select confirm to confirm the gas payment for deploying the contract.
 
 ## Executing the contract
 
-The contract execution can be tested using remix. The functions of the deployed contract can be invoked using the specific buttons allocated for each function in the contract, where the outputs will be displayed below the buttons. Also the logs can be accessed inside the command window inside the Remix IDE. 
+The contract execution can be tested using remix. The functions of the deployed contract can be invoked using the specific buttons allocated for each function in the contract, where the outputs will be displayed below the buttons. Also, the logs can be accessed inside the command window inside the Remix IDE. 
 
 ![Compile tab](/Docs/image3.png)
 

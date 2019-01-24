@@ -36,15 +36,15 @@ Decisions made by these validator nodes are broadcasted through the network as
 messages which are signed (attested) using validated cryptographic public key.
 Every validator node running XDC protocol in the RCL network is responsible for
 deciding its Unique Node List (UNL). This list holds information about which
-regular nodes does the validator care about.
+regular nodes the validator cares about.
 
 **To set up a masternode, make sure your XDC protocol running node is publicly
-identified and has gone through the compliance process. Every Node Holder need
+identified and has gone through the compliance process. Every Node Holder needs
 to upload KYC document and this detail will be visible to the public network.**
 
 ### **Why set up a masternode at all?**
 
-It is necessary to set up a masternode to operate on XDC protocol is because
+It is necessary to set up a masternode to operate on XDC protocol because
 masternodes make the decentralised blockchain network self-sustainable.
 Deploying masternode is conducive to trusted, scalable decentralised network
 infrastructure. Such an environment facilitates greater stability and
@@ -63,7 +63,7 @@ governance of the network possible.
 * **Masternodes** are full-nodes that create, verify and validate new blocks in
 XinFin’s platform.
 * **mXDC**:- Let’s assume mXDC **{mainNet-XDC}** will be native crypto on XinFin
-dPOS network. mXDC will rewarded to MN Owners.
+dPOS network. mXDC will be rewarded to MN Owners.
 * **Epoch**:- We can use epoch instead of hard date to distribute
 incentive/rewards to masternode owners (1 epoch could be number of block, for
 example **{1 Epoch = 888 Blocks}**
@@ -95,12 +95,12 @@ to become masternodes:
 * Reputation building within the network community.
 * Trust Factor enhances for your node particularly since network relies on your
 node.
-* More Incentive gain with as your node pushes more transactions on network.
+* More Incentive gain as your node pushes more transactions on network.
 * Private blockchain is capable of running its own use case.
 
 **Important:** Max number of Master node allowed in the network is 5000.
 
-**Special incentives for 21st validator node:** information required Depends on
+**Special incentives for 21st validator node:** information required depends on
 Nos of Block created by validator node (incentive In terms of XDC)
 
 **Reward Cycle:** Every 15 days.
@@ -120,13 +120,13 @@ Validator Node gets incentive to validate the transaction.
 Under Xinfin DPoS, Highest XDC Stakeholder 21 Node Act as Validator node rest
 node act as Backup node and Private node.
 
-**4. If no transaction fees on network then how validator gets incentive?**<br>
-Network generate additional coin to provide incentive to validator node. Nos
-depends on network load and numbers of transaction process within the network.
+**4. If there is no transaction fees on network then how validator gets incentive?**<br>
+Network generates additional coin to provide incentive to validator node. Nos
+depends on network load and numbers of transactions processed within the network.
 
 **5. How to get XDC ?**<br>
-XDC listed with more then 20 Liquidity Exchanges, full list of exchange
-available at xinfin.io to Purchase XDC from open market to stake under
+XDC is listed with more then 20 Liquidity Exchanges, full list of exchanges is
+available at xinfin.io to purchase XDC from open market to stake under
 masternode.
 
 ### **Hands on guide: How to Setup Masternode**
@@ -134,7 +134,7 @@ masternode.
 There are two methods to choose from to set up the masternode:
 
 1.  DIY masternode environment set up
-1.  Delegate masternode se up to third party service provider
+1.  Delegate masternode set up to third party service provider
 
 #### **METHOD 1: DIY masternode environment set up**
 
@@ -198,17 +198,17 @@ Telegram Community:
 Slack Community:
 [https://xinfin-public.slack.com/messages/CELR2M831/](https://xinfin-public.slack.com/messages/CELR2M831/)
 
-#### **METHOD 2: Delegate masternode se up to third party service provider**
+#### **METHOD 2: Delegate masternode set up to third party service provider**
 
 Set up your Masternode using one of these 3rd party Masternode service
 providers.
 
 **DISCLAIMER:** This list is provided for informational purposes only. Services
-listed here have not been evaluated or endorsed by Xinfin and no guarantees are
-made as to the accuracy of this information. Please exercise discretion when
+listed here have not been evaluated or endorsed by XinFin and no guarantees are
+made to the accuracy of this information. Please exercise discretion when
 using third-party services.
 
-List of service provider to Setup masternode
+List of service providers to Setup masternode
 
 #### 1. IndSoft.net
 
@@ -221,7 +221,7 @@ List of service provider to Setup masternode
 
 Are you a Provider?
 
-If yes, then [Contact us](https://www.xinfin.org/test-web/contactus.php) to List
+If yes, then [Contact us](https://www.xinfin.org/test-web/contactus.php) to list
 your service.
 
 #### Masternode Tools
@@ -230,7 +230,7 @@ Community Forum update link: [http://xinfin.net](http://xinfin.net/)
 
 #### Where to operate? Mainnet vs Testnet:
 
-In Xinfin, there are two networks where you can run XDC protocol: the mainnet
+In XinFin, there are two networks where you can run XDC protocol: the mainnet
 and the testnet.
 
 The mainnet is used to transact real XDC. The XDC’s value is tied to real fiat
