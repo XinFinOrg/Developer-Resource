@@ -159,7 +159,7 @@ portion of the entire 100% stakes of Validator Node.
 
 ### Parameters
 
-Suggested parameter values from requirements:<br> `MIN_STAKE`: 1,000,000 XDC<br>
+Suggested parameter values from requirements:<br> `MIN_STAKE`: 10,000,000 XDC<br>
 `VALIDATOR_REWARD`: 0.01370%<br> `VALIDATOR_SET_SIZE`: 18-21 <br>
 `REWARDS_TRANSFER`: Every next block of an epoch<br> `WITHDRAWAL_PERIOD`: Set of
 Epoch ( 1 Epoch = 500 blocks)<br> `MAX_REGISTERED_VALIDATORS`: 5000
