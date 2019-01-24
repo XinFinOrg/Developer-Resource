@@ -52,7 +52,6 @@ Enhancement and General Contributions<br>
   b. [XinFin Private (Geth Fork)](/Docs/Setup/Private-Network-geth.md)<br>
   c. Hyperledger<br>
   d. [Corda](/Docs/Setup/Private-Network-Corda.md)<br>
-  e. Anything else<br>
 
 2. [Quick deploy docker scripts for running a private network](/Docs/Setup/XDC01-Docker-Node-Setup.md)<br>
 
