@@ -150,8 +150,8 @@ In the contract, there will be a `reportMalicious` method that only Validators c
 ## Parameters
 
 Suggested parameter values from requirements:  
- `MIN_STAKE`: 1,000,000 XDC  
- `VALIDATOR_REWARD`: 0.01370%  
+ `MIN_STAKE`: 10,000,000 XDC  
+ `VALIDATOR_REWARD`: 0.01370% \(Daily\)  
  `VALIDATOR_SET_SIZE`: 18-21   
  `REWARDS_TRANSFER`: Every next block of an epoch  
  `WITHDRAWAL_PERIOD`: Set of Epoch \( 1 Epoch = 500 blocks\)  
