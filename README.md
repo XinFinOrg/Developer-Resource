@@ -1,4 +1,4 @@
-The communities and posts below include content that has been curated by XinFin
+Welcome, The communities and posts below include content that has been curated by XinFin
 team members, community members and projects building on Xinfin Platform. While
 some of these links include information specific to these projects, every
 resource also has information that can be generally applied to the Platform. We
@@ -93,40 +93,32 @@ Enhancement and General Contributions<br>
   
 **2. TurantPay**
   * About<br> 
-  * Documentation<br>
   * APIs<br> 
   
 **3. TradeFinex.org**
   * About<br> 
-  * Documentation<br>
   * [API reference](https://xinfinorg.github.io/TradeFinex_API/)<br> 
   
 **4. MyContract.co**
   * [About](https://mycontract.co/#features)<br> 
-  * Documentation<br>
   * [API reference](http://api.mycontract.co:3001/#introduction)<br> 
   
 **5. Alphaex.net**
   * [About](https://alphaex.net/aboutus)<br> 
-  * Documentation<br>
   * [API reference](https://alphaex.net/api)<br> 
   
 **6. Kramaa.com IoT Stack**
   * [About](https://kramaa.com/)<br> 
-  * Documentation<br>
-  * [API reference](https://alphaex.net/api)<br>
+  * [API reference](https://kramaa.com/)<br>
 
 **7. Blockchain Academy/Blockchain Education**
   * About<br> 
-  * Documentation<br>
-  * APIs<br> 
+  * be a faculty<br> 
 
 **8. Land Registry**
   * About<br> 
-  * Documentation<br>
   * [API reference](http://land-registry.xinfin.org/docs/)<br>
 
 **9. AirnetzCharter.com**
   * [About](http://airnetzcharter.com/)<br>
-  * Documentation<br>
   * APIs<br> 
