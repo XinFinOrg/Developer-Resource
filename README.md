@@ -1,12 +1,12 @@
 ---
-description: Getting Started
+description: Welcome and Content
 ---
 
-# README
+# XinFin Docs
 
-Welcome, The communities and posts below include content that has been curated by XinFin team members, community members and projects building on XinFin Platform. While some of these links include information specific to these projects, every resource also has information that can be generally applied to the Platform. We welcome Community to **”EDIT”** and simplify the content by adding more Tools, Article, Video, Plug and Play Scripts, and documentation to make it more simple and friendly for the developer community to build more DApps on XinFin Platform.
+**Welcome**, The communities and posts below include content that has been curated by XinFin team members, community members and projects building on XinFin Platform. While some of these links include information specific to these projects, every resource also has information that can be generally applied to the Platform. We welcome Community to **”EDIT”** and simplify the content by adding more Tools, Article, Video, Plug and Play Scripts, and documentation to make it more simple and friendly for the developer community to build more DApps on XinFin Platform.
 
-## Development Specific Communities:
+## Developer Specific Communities:
 
 Topic: Public discussions on the technical issues, post articles and request for Enhancements and Technical Contributions  
  [Slack Public Chat](https://xinfin-public.slack.com/), [Telegram Chat](http://bit.do/Telegram-XinFinDev), [Forum](https://xinfin.net), [GitHub](https://github.com/XinFinorg)

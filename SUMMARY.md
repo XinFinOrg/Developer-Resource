@@ -1,6 +1,6 @@
 # Table of contents
 
-* [README](README.md)
+* [XinFin Docs](README.md)
 * [Docs](docs/README.md)
   * [Concepts](docs/concepts/README.md)
     * [Hybrid Blockchain](docs/concepts/hybrid-blockchain.md)
