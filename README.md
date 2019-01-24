@@ -37,14 +37,33 @@ Topic: Public discussions on general topics, post articles and Request for Enhan
 
 ## How to Setup Private Network
 
-1. Choose between open source private networks  a. [XinFin Private \(QuorumFork\)](docs/setup/choose-between-open-source-private-networks/xdc01-docker-node-setup.md)  b. [XinFin Private \(Geth Fork\)]()  c. Hyperledger  d. [Corda](docs/setup/choose-between-open-source-private-networks/private-network-corda.md) 
-2. [Quick deploy docker scripts for running a private network](docs/setup/choose-between-open-source-private-networks/xdc01-docker-node-setup.md) 
-3. Build with XinFin on private Network  a. [Deploy Smart Contracts](docs/setup/build/deploy-smart-contract.md)  b. [Create DAPP Environment](docs/setup/build/dapp-environment.md) 
-4. Running a Public Network Node  a. [How to deploy a XinFin Public Masternode](docs/setup/raw/masternodes.md) 
+1. Choose between open source private networks
+   * [XinFin Private \(QuorumFork\)](docs/setup/choose-between-open-source-private-networks/xdc01-docker-node-setup.md)
+   * [XinFin Private \(Geth Fork\)]()
+   * Hyperledger
+   * [Corda](docs/setup/choose-between-open-source-private-networks/private-network-corda.md) 
+ 
+2. [Quick deploy docker scripts for running a private network](docs/setup/choose-between-open-source-private-networks/xdc01-docker-node-setup.md)
+
+3. Build with XinFin on private Network
+   * [Deploy Smart Contracts](docs/setup/build/deploy-smart-contract.md)
+   * [Create DAPP Environment](docs/setup/build/dapp-environment.md)
+   
+4. Running a Public Network Node 
+   * [How to deploy a XinFin Public Masternode](docs/setup/raw/masternodes.md) 
+   
 5. Running a Relayer Bridge \(Interoperability\) 
+
 6. Deploying Limited data and transactions from private to XinFin Public 
+
 7. Running your stable coin \(For regulated institutions\) 
-8. Connecting Legacy systems  a. ISO20022 Data Set APIs  b. ERP Connectors  c. Core Banking Connectors  d. SWIFT System connectors  e. Any other
+
+8. Connecting Legacy systems
+   * ISO20022 Data Set APIs
+   * ERP Connectors
+   * Core Banking Connectors
+   * SWIFT System connectors
+   * Any other
 
 ## Key Technical Articles Reference
 
