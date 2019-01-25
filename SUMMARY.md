@@ -20,6 +20,7 @@
     * [How to Setup Private Network](docs/build/setup/README.md)
       * [Choose between open source private networks](docs/build/setup/choose-between-open-source-private-networks/README.md)
         * [XinFin Private \(QuorumFork\)](docs/build/setup/choose-between-open-source-private-networks/xdc01-docker-node-setup.md)
+        * [XinFin Private \(Geth Fork\)](docs/build/setup/choose-between-open-source-private-networks/xinfin-private-geth-fork.md)
         * [Hyperledger](docs/build/setup/choose-between-open-source-private-networks/raw.md)
         * [Corda](docs/build/setup/choose-between-open-source-private-networks/private-network-corda.md)
       * [Quick deploy docker scripts for running a private network](docs/build/setup/quick-deploy-docker-scripts-for-running-a-private-network.md)
