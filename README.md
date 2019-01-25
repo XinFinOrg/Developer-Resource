@@ -9,23 +9,21 @@ description: Welcome and Content
 ## Developer Specific Communities:
 
 Topic: Public discussions on the technical issues, post articles and request for Enhancements and Technical Contributions  
- [Slack Public Chat](https://xinfin-public.slack.com/), [Telegram Chat](http://bit.do/Telegram-XinFinDev), [Forum](https://xinfin.net), [GitHub](https://github.com/XinFinorg)
+[Slack Public Chat](https://xinfin-public.slack.com/), [Telegram Chat](http://bit.do/Telegram-XinFinDev), [Forum](https://xinfin.net), [GitHub](https://github.com/XinFinorg)
 
 ## General Communities:
 
 Topic: Public discussions on general topics, post articles and Request for Enhancement and General Contributions  
- [Twitter](https://twitter.com/XinFin_Official), [Facebook](https://www.facebook.com/XinFinHybridBlockchain/), [Reddit](https://www.reddit.com/r/xinfin/), [Medium](https://medium.com/xinfin), [Linkedin](https://www.linkedin.com/company/xinfin/), [Meetup](https://www.meetup.com/members/270624533/), [YouTube](https://www.youtube.com/channel/UCQaL6FixEQ80RJC0B2egX6g)
+[Twitter](https://twitter.com/XinFin_Official), [Facebook](https://www.facebook.com/XinFinHybridBlockchain/), [Reddit](https://www.reddit.com/r/xinfin/), [Medium](https://medium.com/xinfin), [Linkedin](https://www.linkedin.com/company/xinfin/), [Meetup](https://www.meetup.com/members/270624533/), [YouTube](https://www.youtube.com/channel/UCQaL6FixEQ80RJC0B2egX6g)
 
 ## **User OnBoarding and Learning Resources**
 
 1. Concepts:
-
    * [Hybrid Blockchain](docs/concepts/hybrid-blockchain.md)
    * [Smart Contract](docs/concepts/smartcontracts.md)
    * [How DPoS works](docs/concepts/dpos.md)
    * [XinFin DPoS Consensus](docs/concepts/xinfindpos.md)
    * Hybrid Relayer Bridge
-
 2. Tools / Reference:
    * [Wallet](https://www.xdcwallet.com/)
    * [Network Status Data](https://xinfin.network/)
@@ -38,26 +36,19 @@ Topic: Public discussions on general topics, post articles and Request for Enhan
 ## How to Setup Private Network
 
 1. Choose between open source private networks
-   * [XinFin Private \(QuorumFork\)](docs/setup/choose-between-open-source-private-networks/xdc01-docker-node-setup.md)
-   * [XinFin Private \(Geth Fork\)]()
+   * [XinFin Private \(QuorumFork\)](docs/build/setup/choose-between-open-source-private-networks/xdc01-docker-node-setup.md)
+   * [XinFin Private \(Geth Fork\)](./)
    * Hyperledger
-   * [Corda](docs/setup/choose-between-open-source-private-networks/private-network-corda.md) 
- 
-2. [Quick deploy docker scripts for running a private network](docs/setup/choose-between-open-source-private-networks/xdc01-docker-node-setup.md)
-
+   * [Corda](docs/build/setup/choose-between-open-source-private-networks/private-network-corda.md) 
+2. [Quick deploy docker scripts for running a private network](docs/build/setup/choose-between-open-source-private-networks/xdc01-docker-node-setup.md)
 3. Build with XinFin on private Network
-   * [Deploy Smart Contracts](docs/setup/build/deploy-smart-contract.md)
-   * [Create DAPP Environment](docs/setup/build/dapp-environment.md)
-   
-4. Running a Public Network Node 
-   * [How to deploy a XinFin Public Masternode](docs/setup/raw/masternodes.md) 
-   
-5. Running a Relayer Bridge \(Interoperability\) 
-
-6. Deploying Limited data and transactions from private to XinFin Public 
-
-7. Running your stable coin \(For regulated institutions\) 
-
+   * [Deploy Smart Contracts](docs/build/deploy-smart-contract.md)
+   * [Create DAPP Environment](docs/build/dapp-environment.md)
+4. Running a Public Network Node
+   * [How to deploy a XinFin Public Masternode](docs/raw/masternodes.md) 
+5. Running a Relayer Bridge \(Interoperability\)
+6. Deploying Limited data and transactions from private to XinFin Public
+7. Running your stable coin \(For regulated institutions\)
 8. Connecting Legacy systems
    * ISO20022 Data Set APIs
    * ERP Connectors

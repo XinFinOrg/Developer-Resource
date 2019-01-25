@@ -2,7 +2,7 @@
 title: Setup DApp Environment
 ---
 
-# . Create DAPP Environment
+# Create DAPP Environment
 
 ## Prerequisites
 
