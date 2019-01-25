@@ -2,7 +2,7 @@
 title: Setup infactor.io DAPP
 ---
 
-# Setup-infactor
+# Setup
 
 **Note:** You’ll need to have **Node 6.x.x** version on your local development machine. You can use `nvm` to easily switch Node versions between different projects.
 
