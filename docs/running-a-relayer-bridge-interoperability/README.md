@@ -8,7 +8,7 @@ Corda Private to XinFin Public
 [Contribute Now]
 
 Hyperledger to XinFin Public
-[Contrinute Now]
+[Contribute Now]
 
 Etherum Private to XinFin Public
 [Contribute Now]
