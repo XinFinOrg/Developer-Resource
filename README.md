@@ -112,6 +112,6 @@ Topic: Public discussions on general topics, post articles and Request for Enhan
 * [About](http://airnetzcharter.com/)
 * APIs
 
-** Developer Community 
+**Developer Community**
 Public discussions on the technical issues, post articles and request for Enhancements and Technical Contributions  
-[Slack Public Chat](https://launchpass.com/xinfin-public), [Telegram Chat](http://bit.do/Telegram-XinFinDev), [Forum](https://xinfin.net), [GitHub](https://github.com/XinFinorg)**
+[Slack Public Chat](https://launchpass.com/xinfin-public), [Telegram Chat](http://bit.do/Telegram-XinFinDev), [Forum](https://xinfin.net), [GitHub](https://github.com/XinFinorg)
