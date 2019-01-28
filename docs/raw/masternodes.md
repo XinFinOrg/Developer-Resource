@@ -6,19 +6,14 @@ title: Setup MasterNodes on Xinfin Network
 
 This guide will demonstrate how to set up a single masternode for the very first time. You will need the following before starting:
 
-1. At least 10,000,000 XDC with masternode holder to perform random delegated proof of stake
-
-   consensus seamlessly.
-
+1. At least 10,000,000 XDC with masternode holder to perform random delegated proof of stake consensus seamlessly.
 2. Wallet to store XDC tokens, preferably hardware.
 3. Dedicated and stable hardware environment.
 4. Dedicated Static Public IP address.
 5. 100% network uptime by IDC network.
 6. Minimum tier 3+ IDC environment.
 7. \(Optional, but highly recommended\) Virtual Private Server \(VPS\).
-8. For cloud based services, Amazon EC2’s m3.large VM size would be appropriate.
-
-   Similar configuration is applicable for Microsoft Azure Cloud network.
+8. For cloud based services, Amazon EC2’s m3.large VM size would be appropriate. Similar configuration is applicable for Microsoft Azure Cloud network.
 
 This guide will cater to the following system configurations:
 
