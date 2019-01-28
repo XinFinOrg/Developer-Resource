@@ -206,7 +206,7 @@ List of service providers to Setup masternode
 
 Are you a Provider?
 
-If yes, then [Contact us](https://www.xinfin.org/test-web/contactus.php) to list your service.
+If yes, then [Contact us](https://www.xinfin.org/contactus.php) to list your service.
 
 ### Masternode Tools
 
