@@ -1,12 +1,12 @@
 ---
-title: Setup MasterNodes
+title: Setup MasterNodes on Xinfin Network
 ---
 
 # How to deploy a XinFin Public Masternode
 
 This guide will demonstrate how to set up a single masternode for the very first time. You will need the following before starting:
 
-1. At least 10,000,000 XDC with masternode holder to perform proof-of-stake
+1. At least 10,000,000 XDC with masternode holder to perform random delegated proof of stake
 
    consensus seamlessly.
 
@@ -26,13 +26,13 @@ This guide will cater to the following system configurations:
 
 ## **About XinFin Masternode**
 
-XinFin’s token XDC supplants proof-of-work consensus algorithm \(popularly linked with mining\) with proof-of-stake consensus algorithm, fundamentally using the concept of “validators”.
+XinFin’s token XDC supplants proof-of-work consensus algorithm \(popularly linked with mining\) with random delegated proof of stake consensus algorithm, fundamentally using the concept of “validators”.
 
-Validators are special nodes used in the DPoS consensus algorithm which validate each transaction occurring on the blockchain network. The result of this validation is to finally append the transaction on the blockchain. A transaction may be accepted by the validator or rejected. \(**Important:** There can be multiple validator nodes in each network.\)
+Validators are special nodes used in the RDPoS consensus algorithm which validate each transaction occurring on the blockchain network. The result of this validation is to finally append the transaction on the blockchain. A transaction may be accepted by the validator or rejected. \(**Important:** There can be multiple validator nodes in each network.\)
 
 Decisions made by these validator nodes are broadcasted through the network as messages which are signed \(attested\) using validated cryptographic public key. Every validator node running XDC protocol in the RCL network is responsible for deciding its Unique Node List \(UNL\). This list holds information about which regular nodes the validator cares about.
 
-**To set up a masternode, make sure your XDC protocol running node is publicly identified and has gone through the compliance process. Every Node Holder needs to upload KYC document and this detail will be visible to the public network.**
+**To set up a masternode, make sure your XDC protocol running node is publicly identified and has gone through the compliance process. Every Node Holder needs to upload KYC document (Proof of identity (Individual and Corporate) and address duly notarized by the Notary Public) and this detail will be visible to the public network.**
 
 ## **Why set up a masternode at all?**
 
@@ -40,7 +40,7 @@ It is necessary to set up a masternode to operate on XDC protocol because master
 
 ## **Functions of masternode**
 
-In DPoS blockchain environment, masternode concept is cardinal to the functioning. A masternode validates each \(or segment of transaction depending upon UNL\) transaction and is also responsible for writing the transaction onto the truth ledger: the blockchain. As a consequence, this makes decentralised governance of the network possible.
+In random delegated proof of stake blockchain environment, masternode concept is cardinal to the functioning. A masternode validates each \(or segment of transaction depending upon UNL\) transaction and is also responsible for writing the transaction onto the truth ledger: the blockchain. As a consequence, this makes decentralised governance of the network possible.
 
 ## **Master node**
 
@@ -101,7 +101,7 @@ Nodes which possess any of the below mentioned characteristics may not qualify t
 
 **Important:** Max number of Master node allowed in the network is 5000.
 
-**Special incentives for 21st validator node:** information required depends on Nos of Block created by validator node \(incentive In terms of XDC\)
+**Incentives for all validator node:** information required depends on Nos of Block created by validator node \(incentive In terms of XDC\)
 
 **Reward Cycle:** Every 15 days.
 
@@ -113,7 +113,7 @@ Nodes which possess any of the below mentioned characteristics may not qualify t
  In XinFin, ‘Validator Node’’ are full nodes that incentivize node operators to perform the core consensus functions of running a DPoS based blockchain. Only Validator Node gets incentive to validate the transaction.
 
 **3. How to become a Validator Node?**  
- Under Xinfin DPoS, Highest XDC Stakeholder 21 Node Act as Validator node rest node act as Backup node and Private node.
+ Under Xinfin RDPoS, XDC Stakeholder Node Act as Validator node rest node act as Backup node and Private node.
 
 **4. If there is no transaction fees on network then how validator gets incentive?**  
  Network generates additional coin to provide incentive to validator node. Nos depends on network load and numbers of transactions processed within the network.
@@ -223,5 +223,5 @@ In XinFin, there are two networks where you can run XDC protocol: the mainnet an
 
 The mainnet is used to transact real XDC. The XDC’s value is tied to real fiat currency via cryptocurrency exchanges.
 
-As developers, you do not want to run application tests with real money. That is what the testnet is for. We call the testnet [XinfinTestNet](http://testnet.xinfin.org/).
+As developers, you do not want to run application tests with real money. That is what the testnet is for. We call the testnet [XinfinTestNet](http://XinFin.Network/). 
 
