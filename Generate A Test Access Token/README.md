@@ -7,10 +7,7 @@ Test environment or Test infrastructure available at: http://xinfin.network (sel
 
 
 ### **Troubleshooting**
-If you are having problems with Setup, the first step is to collect more information to accurately characterize the problem. From there, it can be easier to figure out a root cause and a fix.
 
-Please drop message with all possible detail and screen shot at Community Support forum: [http://Xinfin.Net](http://xinfin.net/)
+Topic: Public discussions on the technical issues, post articles and request for Enhancements and Technical Contributions  
+[Slack Public Chat](https://launchpass.com/xinfin-public), [Telegram Chat](http://bit.do/Telegram-XinFinDev), [Forum](https://xinfin.net), [GitHub](https://github.com/XinFinorg)
 
-Telegram Community: [http://bit.do/Telegram-XinFinDev](http://bit.do/Telegram-XinFinDev)
-
-Slack Community: [https://xinfin-public.slack.com/messages/CELR2M831/](https://xinfin-public.slack.com/messages/CELR2M831/)
