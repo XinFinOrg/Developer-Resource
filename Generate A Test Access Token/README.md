@@ -5,6 +5,10 @@ Generate A Test Access Token to Setup Masternode, Web Wallet and XDC Mobile Wall
 
 Test environment or Test infrastructure available at: http://xinfin.network (select "Switch to Testnet" Menu)
 
+### **How to Setup XinFin Masternode**
+
+step by step guideline avilable on How to Setup XDC Masternode  with FAQ and Resource at: https://github.com/XinFinOrg/Developer-Resource/blob/master/docs/raw/masternodes.md 
+
 
 ### **Troubleshooting**
 
