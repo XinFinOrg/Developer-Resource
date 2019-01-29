@@ -209,10 +209,6 @@ Are you a Provider?
 
 If yes, then [Contact us](https://www.xinfin.org/contactus.php) to list your service.
 
-### Masternode Tools
-
-Community Forum update link: [http://xinfin.net](http://xinfin.net/)
-
 ### Where to operate? Mainnet vs Testnet:
 
 In XinFin, there are two networks where you can run XDC protocol: the mainnet and the testnet.
@@ -221,3 +217,10 @@ The mainnet is used to transact real XDC. The XDC’s value is tied to real fiat
 
 As developers, you do not want to run application tests with real money. That is what the testnet is for. We call the testnet [XinfinTestNet](http://XinFin.Network/). 
 
+
+### **Troubleshooting**
+
+If you are having problems with Setup, the first step is to collect more information to accurately characterize the problem. From there, it can be easier to figure out a root cause and a fix.
+
+Topic: Public discussions on the technical issues, post articles and request for Enhancements and Technical Contributions  
+[Slack Public Chat](https://launchpass.com/xinfin-public), [Telegram Chat](http://bit.do/Telegram-XinFinDev), [Forum](https://xinfin.net), [GitHub](https://github.com/XinFinorg)
