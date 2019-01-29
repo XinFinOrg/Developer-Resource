@@ -83,7 +83,7 @@ We would like to add Know your customer \(KYC\) identification as it falls under
 
 ## Choosing Validators
 
-The problem is: How to choose L Validators for a certain epoch N?
+choose L Validators for a certain epoch N
 
 ### Balanced staked
 
@@ -152,14 +152,14 @@ In the contract, there will be a `reportMalicious` method that only Validators c
 Suggested parameter values from requirements:  
  `MIN_STAKE`: 10,000,000 XDC  
  `VALIDATOR_REWARD`: 0.01370% \(Daily\)  
- `VALIDATOR_SET_SIZE`: 18-21   
+ `VALIDATOR_SET_SIZE`: 21   
  `REWARDS_TRANSFER`: Every next block of an epoch  
  `WITHDRAWAL_PERIOD`: Set of Epoch \( 1 Epoch = 500 blocks\)  
  `MAX_REGISTERED_VALIDATORS`: 5000
 
 ## Upgradability:
 
-Contracts should be upgradeable, could be implemented with Proxy contracts. Would need to figure out a governance mechanism to determine how upgrades are authorised and enacted.
+Contracts should be upgradeable, could be implemented with Proxy contracts.
 
 Contract state would need to be transferred to the new version of the contract, either through a migration process or a persistent storage pattern.
 
