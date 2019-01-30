@@ -128,57 +128,62 @@ There are two methods to choose from to set up the masternode:
 
 ### **METHOD 1: DIY masternode environment set up**
 
-* Create a working folder/directory for this exercise. It will be used to hold binaries and configuration files. 
-* Clone Repository from Github link:  
+
+## XinFin XDC Testnet
+
+## Prerequisite
+**Operating System**: Ubuntu 16.04 64-bit or higher
+
+Should be facing internet directly with **public IP** & **without NAT**
+
+**Tools**: Docker, Docker Compose
 
 
-  `$ git clone [https://github.com/XinFinorg/](https://github.com/XinFinorg/)`
+## Network Ports
 
-* Install Docker & Docker Compose  
+Following network ports need to be open for the nodes to communicate
 
+| Port | Type | Definition |
+|:------:|:-----:|:---------- |
+|8545| TCP | RPC |
+|30303| TCP/UDP | XDC |
 
-  `$ sudo ./install_docker.sh`
+### Setup
 
-* Pull Image from Docker Hub  
+## Clone repository
+```
+git clone https://github.com/XinFinOrg/XinFin-Node.git
+```
 
-
-  `$ sudo docker pull xinfinorg`
-
-* Setup  
-
-
-  `$ cd static-nodes`  
-   `$ sudo ./setup.sh`
-
-* Enter the initial number of nodes & public IP address of host machine & then start the nodes using.  
-
-
-  `$ sudo docker-compose -p <PROJECT_NAME_STATIC_NODE> up -d`
-
-* To Stop  
+Enter `XinFin-Node` directory
+```
+cd XinFin-Node
+```
 
 
-  `$ sudo docker-compose -p <PROJECT_NAME_STATIC_NODE> down`
+## Step: 1 Install docker & docker-compose
+    sudo ./install_docker.sh
 
-* Accessing the console  
+## Step: 2 Update .env file with details
+Create `.env` file by using the sample - `.env.example`
 
+Enter your node name in the INSTANCE_NAME field.
 
-  `$ sudo docker exec -it PROJECT_NAME_STATIC_NODES_node_1_1 geth attach /`
-
-* Upgrade  
-
-
-  `$ sudo docker pull xinfinorg/`
-
-* Stop containers running old version  
+Enter your email address in CONTACT_DETAILS field.
 
 
-  `$ sudo docker-compose -p <PROJECT_NAME_STATIC/DYNAMIC_NODE> down`
+## Step: 3 Start your Node
 
-* Run new version  
+Run:
+```
+sudo docker-compose -f docker-services.yml up -d
+```
+
+You should be able to see your node listed on this page: [http://stats.testnet.xinfin.network:3001/](http://stats.testnet.xinfin.network:3001/)
+
+Your coinbase address can be found in xdcchain/coinbase.txt file.
 
 
-  `sudo docker-compose -p <PROJECT_NAME_STATIC/DYNAMIC_NODE> up -d`
 
 ### **Troubleshooting**
 
