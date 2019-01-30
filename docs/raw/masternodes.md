@@ -165,11 +165,12 @@ cd XinFin-Node
     sudo ./install_docker.sh
 
 ## Step: 2 Update .env file with details
-Create `.env` file by using the sample - `.env.example`
 
-Enter your node name in the INSTANCE_NAME field.
+`Create `.env` file by using the sample - `.env.example`
+` <br>
+Enter your node name in the _INSTANCE_NAME_ field.
 
-Enter your email address in CONTACT_DETAILS field.
+Enter your email address in _CONTACT_DETAILS_ field.
 
 
 ## Step: 3 Start your Node
@@ -183,7 +184,12 @@ You should be able to see your node listed on this page: [http://stats.testnet.x
 
 Your coinbase address can be found in xdcchain/coinbase.txt file.
 
+```
+Some common errors:<br>
 
+1. If the version is outdated, install docker-compose version 1.21+
+2. If the ports are in use, kill the docker-container that is live on 30303 port and try again.
+```
 
 ### **Troubleshooting**
 
