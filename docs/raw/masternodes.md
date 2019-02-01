@@ -17,7 +17,9 @@ This guide will demonstrate how to set up a single masternode for the very first
 
 This guide will cater to the following system configurations:
 
-![](https://github.com/XinFinOrg/Developer-Resource/blob/master/Docs/Setup/raw/req1.png)
+![Requirement to Setup XinFin Masternodes](https://github.com/XinFinOrg/Developer-Resource/blob/master/Docs/Setup/raw/req1.png)
+
+If the above image is unaccessible, visit [here](https://github.com/XinFinOrg/Developer-Resource/blob/master/Docs/Setup/raw/req1.png)
 
 ## **About XinFin Masternode**
 
@@ -117,7 +119,7 @@ Nodes which possess any of the below mentioned characteristics may not qualify t
 XDC is listed with more then 20 Liquidity Exchanges, full list of exchanges is available at xinfin.io to purchase XDC from open market to stake under masternode.
  
 **6. How to get a Test XDC ?**  
-Test environment or Test infrastructure available at: http://xinfin.network (select "Switch to Testnet" Menu) to get TEST XDC.Generate A Test Access Token not only help to Setup Masternode but to test Web Wallet / Mobile Wallet, XDC Explorer within Test environment.
+Test environment or Test infrastructure available at: http://xinfin.network (select "Switch to Testnet" Menu) to get TEST XDC. Generate A Test Access Token not only help to Setup Masternode but to test Web Wallet / Mobile Wallet, XDC Explorer within Test environment.
 
 ## **Hands on guide: How to Setup Masternode**
 
