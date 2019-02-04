@@ -182,7 +182,7 @@ Run:
 sudo docker-compose -f docker-services.yml up -d
 ```
 
-You should be able to see your node listed on this page: [http://stats.testnet.xinfin.network:3001/](http://stats.testnet.xinfin.network:3001/)
+You should be able to see your node listed on this page: [http://Xinfin.Network](http://xinfin.network)
 
 Your coinbase address can be found in xdcchain/coinbase.txt file.
 
