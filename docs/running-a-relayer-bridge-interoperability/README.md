@@ -4,14 +4,11 @@ Limited set of data and transactions can be relayed onto XinFin Public Network u
 
 Relayer Bridges for XinFin Network
 
-Corda Private to XinFin Public
-[Contribute Now]
+Corda Private to XinFin Public \[Contribute Now\]
 
-Hyperledger to XinFin Public
-[Contribute Now]
+Hyperledger to XinFin Public \[Contribute Now\]
 
-Etherum Private to XinFin Public
-[Contribute Now]
+Etherum Private to XinFin Public \[Contribute Now\]
 
-Codebase Reference:
-https://github.com/paritytech/parity-bridge
+Codebase Reference: [https://github.com/paritytech/parity-bridge](https://github.com/paritytech/parity-bridge)
+

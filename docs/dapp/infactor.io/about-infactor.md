@@ -16,13 +16,13 @@ XDC Protocol also allows buyers, sellers and financiers to quickly swap between 
 
 ## Pilot With EDIFACT Invoice Standard :
 
-InFactor.io can capture EDIFACT standard Invoice data —> transform it into ISO20022 standard. It then adds transaction hash value to the supplementary data field in ISO20022. The hash of the ISO20022 message is now created as a non-fungible smart contract in off-chain privacy layer that stays within the data hosting compliance. The off-chain smart contract is relayed as a on-chain hash with limited set of smart-contract variables to the XinFin Public Network.
+InFactor.io can capture EDIFACT standard Invoice data —&gt; transform it into ISO20022 standard. It then adds transaction hash value to the supplementary data field in ISO20022. The hash of the ISO20022 message is now created as a non-fungible smart contract in off-chain privacy layer that stays within the data hosting compliance. The off-chain smart contract is relayed as a on-chain hash with limited set of smart-contract variables to the XinFin Public Network.
 
 This instrument is now digitized and can be refactored across any global liquidity markets in regulated jurisdictions. Financiers can also mitigate counterparty risk by trading it in secondary markets.
 
-InFactor can also map any other Invoice standard used globally. 
+InFactor can also map any other Invoice standard used globally.
 
-Image : [EDIFACT--ISO20022--OFFChainContractCreation--OnChainContractCreation]
+Image : \[EDIFACT--ISO20022--OFFChainContractCreation--OnChainContractCreation\]
 
 [API reference](http://infactor.io/docs/?bash#introduction)
 

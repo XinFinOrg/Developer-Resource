@@ -29,7 +29,7 @@ Validators are special nodes used in the RDPoS consensus algorithm which validat
 
 Decisions made by these validator nodes are broadcasted through the network as messages which are signed \(attested\) using validated cryptographic public key. Every validator node running XDC protocol in the RCL network is responsible for deciding its Unique Node List \(UNL\). This list holds information about which regular nodes the validator cares about.
 
-**To set up a masternode, make sure your XDC protocol running node is publicly identified and has gone through the compliance process. Every Node Holder needs to upload KYC document (Proof of identity (Individual and Corporate) and address duly notarized by the Notary Public) and this detail will be visible to the public network.**
+**To set up a masternode, make sure your XDC protocol running node is publicly identified and has gone through the compliance process. Every Node Holder needs to upload KYC document \(Proof of identity \(Individual and Corporate\) and address duly notarized by the Notary Public\) and this detail will be visible to the public network.**
 
 ## **Why set up a masternode at all?**
 
@@ -107,19 +107,19 @@ Nodes which possess any of the below mentioned characteristics may not qualify t
 **1. What is Masternode Node?** Masternode is simply a cryptocurrency full node or computer wallet that keeps the full copy of the blockchain record in real-time.
 
 **2. What is Validator node?**  
- In XinFin, ‘Validator Node’’ are full nodes that incentivize node operators to perform the core consensus functions of running a DPoS based blockchain. Only Validator Node gets incentive to validate the transaction.
+In XinFin, ‘Validator Node’’ are full nodes that incentivize node operators to perform the core consensus functions of running a DPoS based blockchain. Only Validator Node gets incentive to validate the transaction.
 
 **3. How to become a Validator Node?**  
- Under Xinfin RDPoS, XDC Stakeholder Node Act as Validator node rest node act as Backup node and Private node.
+Under Xinfin RDPoS, XDC Stakeholder Node Act as Validator node rest node act as Backup node and Private node.
 
 **4. If there is no transaction fees on network then how validator gets incentive?**  
- Network generates additional coin to provide incentive to validator node. Nos depends on network load and numbers of transactions processed within the network.
+Network generates additional coin to provide incentive to validator node. Nos depends on network load and numbers of transactions processed within the network.
 
 **5. How to get XDC ?**  
 XDC is listed with more then 20 Liquidity Exchanges, full list of exchanges is available at xinfin.io to purchase XDC from open market to stake under masternode.
- 
+
 **6. How to get a Test XDC ?**  
-Test environment or Test infrastructure available at: http://xinfin.network (select "Switch to Testnet" Menu) to get TEST XDC. Generate A Test Access Token not only help to Setup Masternode but to test Web Wallet / Mobile Wallet, XDC Explorer within Test environment.
+Test environment or Test infrastructure available at: [http://xinfin.network](http://xinfin.network) \(select "Switch to Testnet" Menu\) to get TEST XDC. Generate A Test Access Token not only help to Setup Masternode but to test Web Wallet / Mobile Wallet, XDC Explorer within Test environment.
 
 ## **Hands on guide: How to Setup Masternode**
 
@@ -130,55 +130,57 @@ There are two methods to choose from to set up the masternode:
 
 ### **METHOD 1: DIY masternode environment set up**
 
-
 ## XinFin XDC Testnet
 
 ## Prerequisite
+
 **Operating System**: Ubuntu 16.04 64-bit or higher
 
 Should be facing internet directly with **public IP** & **without NAT**
 
 **Tools**: Docker, Docker Compose
 
-
 ## Network Ports
 
 Following network ports need to be open for the nodes to communicate
 
 | Port | Type | Definition |
-|:------:|:-----:|:---------- |
-|8545| TCP | RPC |
-|30303| TCP/UDP | XDC |
+| :---: | :---: | :--- |
+| 8545 | TCP | RPC |
+| 30303 | TCP/UDP | XDC |
 
 ### Setup
 
 ## Clone repository
-```
+
+```text
 git clone https://github.com/XinFinOrg/XinFin-Node.git
 ```
 
 Enter `XinFin-Node` directory
-```
+
+```text
 cd XinFin-Node
 ```
 
-
 ## Step: 1 Install docker & docker-compose
-    sudo ./install_docker.sh
+
+```text
+sudo ./install_docker.sh
+```
 
 ## Step: 2 Update .env file with details
 
-`Create `.env` file by using the sample - `.env.example`
-` <br>
-Enter your node name in the _INSTANCE_NAME_ field.
+`Create`.env`file by using the sample -`.env.example ``   
+ Enter your node name in the _INSTANCE\_NAME_ field.
 
-Enter your email address in _CONTACT_DETAILS_ field.
-
+Enter your email address in _CONTACT\_DETAILS_ field.
 
 ## Step: 3 Start your Node
 
 Run:
-```
+
+```text
 sudo docker-compose -f docker-services.yml up -d
 ```
 
@@ -186,7 +188,7 @@ You should be able to see your node listed on this page: [http://Xinfin.Network]
 
 Your coinbase address can be found in xdcchain/coinbase.txt file.
 
-```
+```text
 Some common errors:<br>
 
 1. If the version is outdated, install docker-compose version 1.21+
@@ -199,7 +201,6 @@ If you are having problems with Setup, the first step is to collect more informa
 
 Topic: Public discussions on the technical issues, post articles and request for Enhancements and Technical Contributions  
 [Slack Public Chat](https://launchpass.com/xinfin-public), [Telegram Chat](http://bit.do/Telegram-XinFinDev), [Forum](https://xinfin.net), [GitHub](https://github.com/XinFinorg)
-
 
 ### **METHOD 2: Delegate masternode set up to third party service provider**
 
@@ -228,8 +229,7 @@ In XinFin, there are two networks where you can run XDC protocol: the mainnet an
 
 The mainnet is used to transact real XDC. The XDC’s value is tied to real fiat currency via cryptocurrency exchanges.
 
-As developers, you do not want to run application tests with real money. That is what the testnet is for. We call the testnet [XinfinTestNet](http://XinFin.Network/). 
-
+As developers, you do not want to run application tests with real money. That is what the testnet is for. We call the testnet [XinfinTestNet](http://XinFin.Network/).
 
 ### **Troubleshooting**
 
@@ -237,3 +237,4 @@ If you are having problems with Setup, the first step is to collect more informa
 
 Topic: Public discussions on the technical issues, post articles and request for Enhancements and Technical Contributions  
 [Slack Public Chat](https://launchpass.com/xinfin-public), [Telegram Chat](http://bit.do/Telegram-XinFinDev), [Forum](https://xinfin.net), [GitHub](https://github.com/XinFinorg)
+

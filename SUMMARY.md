@@ -48,6 +48,8 @@
       * [About](docs/dapp/turantpay/about.md)
       * [API Reference](docs/dapp/turantpay/api-reference.md)
     * [TradeFinex.org](docs/dapp/tradefinex.org/README.md)
+      * [SME API](docs/dapp/tradefinex.org/sme-api/README.md)
+        * [API](docs/dapp/tradefinex.org/sme-api/api.md)
       * [About](docs/dapp/tradefinex.org/about.md)
       * [API Reference](https://xinfinorg.github.io/TradeFinex_API/)
     * [MyContract.co](docs/dapp/mycontract.co/README.md)

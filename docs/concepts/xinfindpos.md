@@ -11,9 +11,9 @@ Delegated Proof of Stake \(DPOS\) is the fastest, most efficient, decentralized,
 ### Definitions
 
 > **DPoS:** Delegated Proof of Stake: a mechanism for the selection of network Validators by coin holders _delegating_ their votes  
->  **Validator:** \(usually denoted L\) a node on the network responsible for producing and validating blocks.  
->  **Nominator:** a coin holder who stakes and delegates their coins to one or more Validators.  
->  **Epoch:** \(usually denoted _𝑁_\) corresponds to _𝐿_∈ℕ blocks: it is a cycle of a few blocks in which Validators create blocks in turn.
+> **Validator:** \(usually denoted L\) a node on the network responsible for producing and validating blocks.  
+> **Nominator:** a coin holder who stakes and delegates their coins to one or more Validators.  
+> **Epoch:** \(usually denoted _𝑁_\) corresponds to _𝐿_∈ℕ blocks: it is a cycle of a few blocks in which Validators create blocks in turn.
 
 ## Voting
 
@@ -104,12 +104,12 @@ Rewards are assigned via the Rewards Contract
 * Nominators would also need to be rewarded to incentivize them to stake. There
 
   are a couple of options here:  
-    \* The reward contract pays directly out to
+  \* The reward contract pays directly out to
 
   nominators, minus a fee payed the Validator, which could be specified when
 
   registering.  
-    \* The Validator is responsible for calculating/paying out the
+  \* The Validator is responsible for calculating/paying out the
 
   rewards. This could be done by allowing the Validators to register their own
 
@@ -130,8 +130,8 @@ Off-chain detection of misbehaviour is easier to implement and can be used for t
 In the contract, there will be a `reportBenign` method \(part of the Validator Set Contract\) that only Validators can call, passing a message and a block-number, and a slashing will execute if more than 2/3 of the Validators agree on the misbehaviour.
 
 These might include but are not limited to:  
-  _Validators consistently propagating blocks late_  
- __ Validators being offline for more than 24 hours.
+_Validators consistently propagating blocks late_  
+\_\_ Validators being offline for more than 24 hours.
 
 It could slash a portion of the stakes, eg. only 4%
 
@@ -150,12 +150,12 @@ In the contract, there will be a `reportMalicious` method that only Validators c
 ## Parameters
 
 Suggested parameter values from requirements:  
- `MIN_STAKE`: 10,000,000 XDC  
- `VALIDATOR_REWARD`: 0.01370% \(Daily\)  
- `VALIDATOR_SET_SIZE`: 21   
- `REWARDS_TRANSFER`: Every next block of an epoch  
- `WITHDRAWAL_PERIOD`: Set of Epoch \( 1 Epoch = 500 blocks\)  
- `MAX_REGISTERED_VALIDATORS`: 5000
+`MIN_STAKE`: 10,000,000 XDC  
+`VALIDATOR_REWARD`: 0.01370% \(Daily\)  
+`VALIDATOR_SET_SIZE`: 21  
+`REWARDS_TRANSFER`: Every next block of an epoch  
+`WITHDRAWAL_PERIOD`: Set of Epoch \( 1 Epoch = 500 blocks\)  
+`MAX_REGISTERED_VALIDATORS`: 5000
 
 ## Upgradability:
 
