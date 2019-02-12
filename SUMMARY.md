@@ -6,7 +6,6 @@
   * [Alpha-Exchange](community-articles/alpha-exchange.md)
   * [Turant Pay](community-articles/turant-pay.md)
   * [Airnetz Charter's](community-articles/airnetz-charters.md)
-* [Airnetz Charter](airnetz-charter.md)
 * [Docs](docs/README.md)
   * [Concepts](docs/concepts/README.md)
     * [Hybrid Blockchain](docs/concepts/hybrid-blockchain.md)
