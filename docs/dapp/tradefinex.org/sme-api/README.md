@@ -1,7 +1,3 @@
----
-description: REST-full API implantation of SME platform
----
-
 # SME API
 
 ## Introduction
