@@ -2,7 +2,6 @@
 
 * [XinFin Docs](README.md)
 * [Community Articles](community-articles.md)
-* [Community Articles](community-articles-1.md)
 * [Docs](docs/README.md)
   * [Concepts](docs/concepts/README.md)
     * [Hybrid Blockchain](docs/concepts/hybrid-blockchain.md)
