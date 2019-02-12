@@ -2,6 +2,7 @@
 
 * [XinFin Docs](README.md)
 * [Community Articles](community-articles.md)
+* [Airnetz Charter](airnetz-charter.md)
 * [Docs](docs/README.md)
   * [Concepts](docs/concepts/README.md)
     * [Hybrid Blockchain](docs/concepts/hybrid-blockchain.md)
