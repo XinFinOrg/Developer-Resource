@@ -1,11 +1,6 @@
 # Table of contents
 
 * [XinFin Docs](README.md)
-* [Community Articles](community-articles/README.md)
-  * [Tradefinex](community-articles/tradefinex.md)
-  * [Alpha-Exchange](community-articles/alpha-exchange.md)
-  * [Turant Pay](community-articles/turant-pay.md)
-  * [Airnetz Charter's](community-articles/airnetz-charters.md)
 * [Docs](docs/README.md)
   * [Concepts](docs/concepts/README.md)
     * [Hybrid Blockchain](docs/concepts/hybrid-blockchain.md)
