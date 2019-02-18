@@ -118,5 +118,5 @@ Public discussions on the technical issues, post articles and request for Enhanc
 
 [Slack Public Chat](https://launchpass.com/xinfin-public), [Telegram Chat](http://bit.do/Telegram-XinFinDev), [Forum](http://www.xinfin.net), [GitHub](https://github.com/XinFinorg/)
 
-Thank you
+
 
