@@ -43,6 +43,7 @@
     * [infactor.io](docs/dapp/infactor.io/README.md)
       * [About](docs/dapp/infactor.io/about-infactor.md)
       * [Setup](docs/dapp/infactor.io/setup-infactor.md)
+      * [Conduct a POC](docs/dapp/infactor.io/conduct-a-poc.md)
       * [API Reference](http://infactor.io/docs/#introduction)
     * [TurantPay](docs/dapp/turantpay/README.md)
       * [About](docs/dapp/turantpay/about.md)
