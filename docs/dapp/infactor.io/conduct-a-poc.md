@@ -49,6 +49,7 @@ If present, output will be something like `git version 2.17.1`. in this case, go
     cd XinFin-Node
 The git clone command will create a new folder XinFin-Node.  Cd XinFin-Node command changes the current directory to XinFin-Node
 
+![infactor-dashboard](developer-html/assets/images/infactor/infactor-dashboard.png)
 
 **b. Install docker & docker-compose**
 
