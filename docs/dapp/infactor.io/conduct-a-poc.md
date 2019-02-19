@@ -6,7 +6,7 @@ description: 'inFactor : How to conduct POC'
 
 
 
-**1. Setup a MasterNode
+**1. Setup a MasterNode  
 \* Prerequisite**
 
 1. Operating System : Ubuntu 16.04 64-bit or higher Should be facing internet directly with public IP & without NAT
@@ -42,33 +42,38 @@ If present, output will be something like `git version 2.17.1`. in this case, go
       git config --global user.email "youremail@domain.com"
 
 **a. Clone repository**
-    Run the following commands on your terminal.
+
+  Run the following commands on your terminal.
 
     git clone [https://github.com/XinFinOrg/XinFin-Node.git](https://github.com/XinFinOrg/XinFin-Node.git)
 
     cd XinFin-Node
-The git clone command will create a new folder XinFin-Node.  Cd XinFin-Node command changes the current directory to XinFin-Node
+
+The git clone command will create a new folder XinFin-Node.  cd XinFin-Node command changes the current directory to XinFin-Node
 
 **b. Install docker & docker-compose**
 
     sudo ./install\_docker.sh
+
 The above command will install docker and docker-compose for you.
 
 **c. Update .env file with details**
 
-Copy a env.example file from XinFin-Node directory and name it as a .env
+- Copy a env.example file from XinFin-Node directory and name it as a .env
 
-Open .env file and edit values for following
+- Open .env file and edit values for following
 
-    INSTANCE_NAME : A Display name of your masternode
-    CONTACT_DETAILS : Your Email ID
+      INSTANCE_NAME : A Display name of your masternode
+      CONTACT_DETAILS : Your Email ID
 
 <p>
     <img src="../../../developer-html/assets/images/infactor/xinfin-node.png"/>
 </p>
+
 <p>
     <img src="../../../developer-html/assets/images/infactor/masternode-.env.png"/>
 </p>
+
 **d. Start your Node**
 
     sudo docker-compose -f docker-services.yml up -d
@@ -93,16 +98,20 @@ _a. Visit_ [_http://xinfin.network/\#webWallet_](http://xinfin.network/#webWalle
 _b. Create an account_
 
 _c. Store your private key at a safe place \(Hardware wallet is recommended\)_
+
 <p>
     <img src="../../../developer-html/assets/images/infactor/masternode-wallet.png"/>
 </p>
+
 **2. Buy XDC**
 
 _a. get your free XDC to use on XinFin Testnet_
 
 _b. Visit XinFin TestNet Faucet_  [_http://xinfin.network/\#getTestXDC_](http://xinfin.network/#getTestXDC)_._
 
-_c. Add your wallet address created in step 2.b and request XDC._<p>
+_c. Add your wallet address created in step 2.b and request XDC._
+
+<p>
     <img src="../../../developer-html/assets/images/infactor/masternode-faucet.png"/>
 </p>  
 
@@ -116,6 +125,7 @@ _b. Upload a notarized kyc_
 
 _Add your account address and click on ‘Become a Candidate’ to become a masternode. You must have minimum 10 Million XDC in your account. Once your candidature is accepted your stake of 10 Million XDC is locked._  
 ****
+
 <p>
     <img src="../../../developer-html/assets/images/infactor/masternode-node.png"/>
 </p>
@@ -137,27 +147,35 @@ _Note : To register, you must have uploaded KYC, staked XDC and you are a part o
 </p>
 
 2. Supplier upload invoice details and related documents.
+
 <p>
     <img src="../../../developer-html/assets/images/infactor/infactor_createInvoice.png"/>
 </p>
+
 3. Buyer verfies invoice authenticity and approve/reject invoice.
+
 <p>
     <img src="../../../developer-html/assets/images/infactor/infactor_buyer approval.png"/>
 </p>
+
 4. Supplier select an approved invoice for factoring, All financiers on the platform receives new factoring notification.
 
 5. Financer sends a factoring proposal along with related documents to supplier. The proposal includes interest rate/month and the upfront payment percent of total invoice amount
+
 <p>
     <img src="../../../developer-html/assets/images/infactor/infactor_factorProposal.png"/>
 </p>
+
 6. Supplier approves the factoring proposal and the notification is sent to selected financier
 
 7. Financier pays first payment to supplier as per factoring criteria
 
 _Note : To transfer amount, A User has to load the amount into a wallet. A deposit functionality is present in user profile section._
+
 <p>
     <img src="../../../developer-html/assets/images/infactor/infactor_paysupplier.png"/>
 </p>
+
 8. Buyer pays invoice amount to financier.
 
 9. A financier pays final payment\(by deducting fees\) to supplier
