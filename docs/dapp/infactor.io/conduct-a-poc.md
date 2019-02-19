@@ -6,14 +6,14 @@ description: 'inFactor : How to conduct POC'
 
 
 
-**1. Setup a MasterNode  
+**1. Setup a MasterNode
 \* Prerequisite**
 
 1. Operating System : Ubuntu 16.04 64-bit or higher Should be facing internet directly with public IP & without NAT
-2. Tools: Docker, Docker Compose
+2. Tools: Git, Docker, Docker Compose
 3. Network Ports
 
-Following network ports need to be open for the nodes to communicate
+Following network ports need to be open for the nodes to communicate.
 
 |    **Port** | **Type** | **Definition** |
 | :--- | :--- | :--- |
@@ -22,39 +22,63 @@ Following network ports need to be open for the nodes to communicate
 
 **How to Setup Masternode ?**
 
-* **Clone repository**
+**0. Install Git**
 
-git clone [https://github.com/XinFinOrg/XinFin-Node.git](https://github.com/XinFinOrg/XinFin-Node.git)
+- Check whether git is preinstalled.
 
-cd XinFin-Node
+      git --version
 
-* **Install docker & docker-compose**
+If present, output will be something like `git version 2.17.1`. in this case, go to step a. 
 
-sudo ./install\_docker.sh
+- Otherwise follow the below steps.
 
-* **Update .env file with details**
+      sudo apt update
+      sudo apt install git
+      git --version
 
-Create.envfile by using the sample -.env.example
+- Configure Git.
 
-Enter your node name in the INSTANCE\_NAME field
+      git config --global user.name "Your Name"
+      git config --global user.email "youremail@domain.com"
 
-Enter your email address in CONTACT\_DETAILS field.
+**a. Clone repository**
+    Run the following commands on your terminal.
 
-* **Start your Node**
+    git clone [https://github.com/XinFinOrg/XinFin-Node.git](https://github.com/XinFinOrg/XinFin-Node.git)
 
-sudo docker-compose -f docker-services.yml up -d
+    cd XinFin-Node
+The git clone command will create a new folder XinFin-Node.  Cd XinFin-Node command changes the current directory to XinFin-Node
+
+
+**b. Install docker & docker-compose**
+
+    sudo ./install\_docker.sh
+The above command will install docker and docker-compose for you.
+
+**c. Update .env file with details**
+
+Copy a env.example file from XinFin-Node directory and name it as a .env
+
+Open .env file and edit values for following
+
+    INSTANCE_NAME : A Display name of your masternode
+    CONTACT_DETAILS : Your Email ID
+
+**d. Start your Node**
+
+    sudo docker-compose -f docker-services.yml up -d
 
 This will start a Masternode and connect to a XinFin Testnet.
 
 You should be able to see your node listed on this page: [http://Xinfin.Network](http://xinfin.network) \(Make sure, you are connected to XinFin Testnet. If not, switch to Tesnet on top right corner\)
 
-Your coinbase address can be found in xdcchain/coinbase.txt file.  
+Your coinbase address can be found in xdcchain/coinbase.txt file.
 
 
 **2. Stake XDC**  
 
 
-* **Create XDC Wallet**
+**1. Create XDC Wallet**
 
 _a. Visit_ [_http://xinfin.network/\#webWallet_](http://xinfin.network/#webWallet) _or download eWallet app from Google Play Store._
 
@@ -62,7 +86,7 @@ _b. Create an account_
 
 _c. Store your private key at a safe place \(Hardware wallet is recommended\)_
 
-*  **Buy XDC**
+**2. Buy XDC**
 
 _a. get your free XDC to use on XinFin Testnet_
 
@@ -70,13 +94,13 @@ _b. Visit XinFin TestNet Faucet_  [_http://xinfin.network/\#getTestXDC_](http://
 
 _c. Add your wallet address created in step 2.b and request XDC._  
 
-* **Upload Kyc**
+**3. Upload Kyc**
 
 _a. Visit_ [_http://xinfin.network/\#masternode_](http://xinfin.network/masternode)\_\_
 
 _b. Upload a notarized kyc_
 
-* **Become a Candidate**
+**4. Become a Candidate**
 
 _Add your account address and click on ‘Become a Candidate’ to become a masternode. You must have minimum 10 Million XDC in your account. Once your candidature is accepted your stake of 10 Million XDC is locked._  
 ****
