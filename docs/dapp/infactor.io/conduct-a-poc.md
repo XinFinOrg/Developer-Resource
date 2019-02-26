@@ -93,14 +93,16 @@ Your coinbase address can be found in xdcchain/coinbase.txt file.
 
 **1. Create XDC Wallet**
 
-_a. Visit_ [_http://xinfin.network/\#webWallet_](http://xinfin.network/#webWallet) _or download eWallet app from Google Play Store._
+_a. Visit_ [_http://xinfin.network/\#webWallet_](http://xinfin.network/#webWallet) _and Click on create a new wallet._
 
-_b. Create an account_
+_b. you can create use a web wallet or download eWallet app from Google Play Store._
 
-_c. Store your private key at a safe place \(Hardware wallet is recommended\)_
+_c. Create an account_
+
+_d. Store your private key at a safe place \(Hardware wallet is recommended\)_
 
 <p>
-    <img src="../../../developer-html/assets/images/infactor/masternode-wallet.png"/>
+    <img src="../../../developer-html/assets/images/infactor/xinfin_wallet.png"/>
 </p>
 
 **2. Buy XDC**
@@ -117,7 +119,7 @@ _c. Add your wallet address created in step 2.b and request XDC._
 
 **3. Upload Kyc**
 
-_a. Visit_ [_http://xinfin.network/\#masternode_](http://xinfin.network/masternode)\_\_
+_a. Visit_ [_http://xinfin.network/\#masternode_](http://xinfin.network/#masternode)
 
 _b. Upload a notarized kyc_
 
