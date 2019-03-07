@@ -2,48 +2,61 @@
 title: Quickbook Integration
 ---
 
-1. Create an Intuit Developer account
+**prerequisite**
 
-	[Sign up](https://developer.intuit.com/v2/ui#/signup) for a new Intuit Developer account
+ - Complete the set up of infactor.io on your local machine.
 
-	<p>
-	    <img src="../../../developer-html/assets/images/quickbook/qbk-signup.png"/>
-	</p>
+**1. Create an Intuit Developer account**
 
-2. Create an app
+[Sign up](https://developer.intuit.com/v2/ui#/signup) for a new Intuit Developer account
 
-	Select My apps and then Create an app
+<p>
+    <img src="../../../developer-html/assets/images/quickbook/qbk-signup.png"/>
+</p>
 
-	<p>
-	    <img src="../../../developer-html/assets/images/quickbook/qbk-create-app.png"/>
-	</p>
+**2. Create an app**
 
-	Select the Keys tab to locate your Client ID and Client Secret
+a. Select My apps and then Create an app
 
-	<p>
-	    <img src="../../../developer-html/assets/images/quickbook/qbk-generate-keys.png"/>
-	</p>
+<p>
+    <img src="../../../developer-html/assets/images/quickbook/qbk-create-app.png"/>
+</p>
 
-	Add the rediect Url
-	Note : redirect url be exactly, http://localhost:3000/quickbook/connect
+b. Select the Keys tab to locate your Client ID and Client Secret
 
-	<p>
-	    <img src="../../../developer-html/assets/images/quickbook/qbk-redirect-url.png"/>
-	</p>
+<p>
+    <img src="../../../developer-html/assets/images/quickbook/qbk-generate-keys.png"/>
+</p>
 
-3. Copy content from example.env file to a new file .env in a project root directory
+c. Add the rediect Url
 
-4. Add the configuration details according to your project details as in step 2
+Note : redirect url be exactly, http://localhost:3000/quickbook/connect
 
-5. Add invoices to your app on quikbook.
+<p>
+    <img src="../../../developer-html/assets/images/quickbook/qbk-redirect-url.png"/>
+</p>
 
-6. Start your app on your localhost, create a supplier user and go to dashboard
+**3. Add app configurations**
+
+- Copy content from example.env file to a new file .env in a project root directory
+
+- Add the configuration details according to your project details as in step 2
+
+**4. Add invoices to your app on quikbook**
+
+**5. Start infactor application on your localhost**
+
+- start application 
+
+		npm start
+
+- create a supplier user and go to dashboard
 
 <p>
     <img src="../../../developer-html/assets/images/quickbook/qbk-dash-empty.png"/>
 </p>
 
-7. Sync Invoices with quickbook
+**6. Sync Invoices with quickbook**
 
 a. Click on connect quickbook to sync quickbook invoices. It will open a new popup window to give authorisation. Add your quickbook login details.
 
@@ -57,13 +70,13 @@ b. Authorise infactor to access your company data(invoices) by clicking on conne
     <img src="../../../developer-html/assets/images/quickbook/qbk-loginauth.png"/>
 </p>
 
-8. refresh the dashboard, all new invoices will appear on dashboard.
+**7. refresh the dashboard, all new invoices will appear on dashboard.**
 
 <p>
     <img src="../../../developer-html/assets/images/quickbook/qbk-dash-connect.png"/>
 </p>
 
-9. Click on any invoice see the complete details
+**8. Click on any invoice see the complete details**
 
 <p>
     <img src="../../../developer-html/assets/images/quickbook/qbk-invoicedetails.png"/>
