@@ -28,7 +28,7 @@ b. Select the Keys tab to locate your Client ID and Client Secret
     <img src="../../../developer-html/assets/images/quickbook/qbk-generate-keys.png"/>
 </p>
 
-c. Add the rediect Url
+c. Add the redirect Url
 
 Note : redirect url be exactly, http://localhost:3000/quickbook/connect
 
