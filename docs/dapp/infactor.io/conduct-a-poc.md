@@ -4,8 +4,6 @@ description: 'inFactor : How to conduct POC'
 
 # Conduct a POC
 
-
-
 **1. Setup a MasterNode  
 \* Prerequisite**
 
@@ -15,7 +13,7 @@ description: 'inFactor : How to conduct POC'
 
 Following network ports need to be open for the nodes to communicate.
 
-|    **Port** | **Type** | **Definition** |
+| **Port** | **Type** | **Definition** |
 | :--- | :--- | :--- |
 | 8545 | TCP | RPC |
 | 30303 | TCP/UDP | XDC |
@@ -24,59 +22,68 @@ Following network ports need to be open for the nodes to communicate.
 
 **0. Install Git**
 
-- Check whether git is preinstalled.
+* Check whether git is preinstalled.
 
-      git --version
+  ```text
+  git --version
+  ```
 
-If present, output will be something like `git version 2.17.1`. in this case, go to step a. 
+If present, output will be something like `git version 2.17.1`. in this case, go to step a.
 
-- Otherwise follow the below steps.
+* Otherwise follow the below steps.
 
-      sudo apt update
-      sudo apt install git
-      git --version
+  ```text
+  sudo apt update
+  sudo apt install git
+  git --version
+  ```
 
-- Configure Git.
+* Configure Git.
 
-      git config --global user.name "Your Name"
-      git config --global user.email "youremail@domain.com"
+  ```text
+  git config --global user.name "Your Name"
+  git config --global user.email "youremail@domain.com"
+  ```
 
 **a. Clone repository**
 
-  Run the following commands on your terminal.
+Run the following commands on your terminal.
 
-    git clone [https://github.com/XinFinOrg/XinFin-Node.git](https://github.com/XinFinOrg/XinFin-Node.git)
+```text
+git clone [https://github.com/XinFinOrg/XinFin-Node.git](https://github.com/XinFinOrg/XinFin-Node.git)
 
-    cd XinFin-Node
+cd XinFin-Node
+```
 
-The git clone command will create a new folder XinFin-Node.  cd XinFin-Node command changes the current directory to XinFin-Node
+The git clone command will create a new folder XinFin-Node. cd XinFin-Node command changes the current directory to XinFin-Node
 
 **b. Install docker & docker-compose**
 
-    sudo ./install\_docker.sh
+```text
+sudo ./install\_docker.sh
+```
 
 The above command will install docker and docker-compose for you.
 
 **c. Update .env file with details**
 
-- Copy a env.example file from XinFin-Node directory and name it as a .env
+* Copy a env.example file from XinFin-Node directory and name it as a .env
+* Open .env file and edit values for following
 
-- Open .env file and edit values for following
+  ```text
+  INSTANCE_NAME : A Display name of your masternode
+  CONTACT_DETAILS : Your Email ID
+  ```
 
-      INSTANCE_NAME : A Display name of your masternode
-      CONTACT_DETAILS : Your Email ID
+![](../../../.gitbook/assets/xinfin-node.png)
 
-<p>
-    <img src="../../../developer-html/assets/images/infactor/xinfin-node.png"/>
-</p>
-
-<p>
-    <img src="../../../developer-html/assets/images/infactor/masternode-.env.png"/>
-</p>
+![](../../../.gitbook/assets/masternode-.env.png)
 
 **d. Start your Node**
 
-    sudo docker-compose -f docker-services.yml up -d
+```text
+sudo docker-compose -f docker-services.yml up -d
+```
 
 This will start a Masternode and connect to a XinFin Testnet.
 
@@ -84,12 +91,9 @@ You should be able to see your node listed on this page: [http://Xinfin.Network]
 
 Your coinbase address can be found in xdcchain/coinbase.txt file.
 
-<p>
-    <img src="../../../developer-html/assets/images/infactor/masternode-listing.png"/>
-</p>
+![](../../../.gitbook/assets/masternode-listing.png)
 
-**2. Stake XDC**  
-
+**2. Stake XDC**
 
 **1. Create XDC Wallet**
 
@@ -101,21 +105,17 @@ _c. Create an account_
 
 _d. Store your private key at a safe place \(Hardware wallet is recommended\)_
 
-<p>
-    <img src="../../../developer-html/assets/images/infactor/xinfin_wallet.png"/>
-</p>
+![](../../../.gitbook/assets/xinfin_wallet.png)
 
 **2. Buy XDC**
 
 _a. get your free XDC to use on XinFin Testnet_
 
-_b. Visit XinFin TestNet Faucet_  [_http://xinfin.network/\#getTestXDC_](http://xinfin.network/#getTestXDC)_._
+_b. Visit XinFin TestNet Faucet_ [_http://xinfin.network/\#getTestXDC_](http://xinfin.network/#getTestXDC)_._
 
 _c. Add your wallet address created in step 2.b and request XDC._
 
-<p>
-    <img src="../../../developer-html/assets/images/infactor/masternode-faucet.png"/>
-</p>  
+![](../../../.gitbook/assets/masternode-faucet.png)
 
 **3. Upload Kyc**
 
@@ -125,12 +125,9 @@ _b. Upload a notarized kyc_
 
 **4. Become a Candidate**
 
-_Add your account address and click on ‘Become a Candidate’ to become a masternode. You must have minimum 10 Million XDC in your account. Once your candidature is accepted your stake of 10 Million XDC is locked._  
-****
+_Add your account address and click on ‘Become a Candidate’ to become a masternode. You must have minimum 10 Million XDC in your account. Once your candidature is accepted your stake of 10 Million XDC is locked._
 
-<p>
-    <img src="../../../developer-html/assets/images/infactor/masternode-node.png"/>
-</p>
+![](../../../.gitbook/assets/masternode-node.png)
 
 **3. Factoring Process**
 
@@ -144,48 +141,34 @@ _On successful registration, A wallet account is automatically created for you._
 
 _Note : To register, you must have uploaded KYC, staked XDC and you are a part of XDC Network by running a masternode. In case of any malicious activity the staked XDC will be frozen._
 
-<p>
-    <img src="../../../developer-html/assets/images/infactor/infactor_login.png"/>
-</p>
+![](../../../.gitbook/assets/infactor_login.png)
 
-2. Supplier upload invoice details and related documents.
+1. Supplier upload invoice details and related documents.
 
-<p>
-    <img src="../../../developer-html/assets/images/infactor/infactor_createInvoice.png"/>
-</p>
+![](../../../.gitbook/assets/infactor_createinvoice.png)
 
-3. Buyer verfies invoice authenticity and approve/reject invoice.
+1. Buyer verfies invoice authenticity and approve/reject invoice.
 
-<p>
-    <img src="../../../developer-html/assets/images/infactor/infactor_buyer approval.png"/>
-</p>
+![](../../../.gitbook/assets/infactor_buyer-approval.png)
 
-4. Supplier select an approved invoice for factoring, All financiers on the platform receives new factoring notification.
+1. Supplier select an approved invoice for factoring, All financiers on the platform receives new factoring notification.
+2. Financer sends a factoring proposal along with related documents to supplier. The proposal includes interest rate/month and the upfront payment percent of total invoice amount
 
-5. Financer sends a factoring proposal along with related documents to supplier. The proposal includes interest rate/month and the upfront payment percent of total invoice amount
+![](../../../.gitbook/assets/infactor_factorproposal.png)
 
-<p>
-    <img src="../../../developer-html/assets/images/infactor/infactor_factorProposal.png"/>
-</p>
-
-6. Supplier approves the factoring proposal and the notification is sent to selected financier
-
-7. Financier pays first payment to supplier as per factoring criteria
+1. Supplier approves the factoring proposal and the notification is sent to selected financier
+2. Financier pays first payment to supplier as per factoring criteria
 
 _Note : To transfer amount, A User has to load the amount into a wallet. A deposit functionality is present in user profile section._
 
-<p>
-    <img src="../../../developer-html/assets/images/infactor/infactor_paysupplier.png"/>
-</p>
+![](../../../.gitbook/assets/infactor_paysupplier.png)
 
-8. Buyer pays invoice amount to financier.
-
-9. A financier pays final payment\(by deducting fees\) to supplier
+1. Buyer pays invoice amount to financier.
+2. A financier pays final payment\(by deducting fees\) to supplier
 
 _Fee calculation is done on the basis of Interest Rate \(As per factoring criteria\) and payout date. If Buyer pays invoice amount earlier to financier, fees will be less and vice versa. The fees calculation is done on the smart contract._
 
-10. Financier and Supplier can Rate each others.
+1. Financier and Supplier can Rate each others.
 
-<p>
-    <img src="../../../developer-html/assets/images/infactor/ratings.png"/>
-</p>
+![](../../../.gitbook/assets/ratings.png)
+
