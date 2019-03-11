@@ -81,3 +81,27 @@ b. Authorise infactor to access your company data(invoices) by clicking on conne
 <p>
     <img src="../../../developer-html/assets/images/quickbook/qbk-invoicedetails.png"/>
 </p>
+
+## Invoice Mapping
+
+| Name | Quickbook Field | Infactor Field | Description |
+| ---- | --------------- | -------------- | ----------- |
+| Invoice Number | DocNumber | invoiceNo | Unique Invoice Number |
+| Invoice Amount | TotalAmt | invoiceAmount | Total Invoice Amount |
+| Invoice Date | MetaData.CreateTime | invoiceDate | Invoice created date |
+| Payable Date | DueDate | payableDate | Invoice Payable Date |
+| Tax Amount | TxnTaxDetail.TotalTax | taxAmount | Total tax amount |
+| Invoice Items | Line | items | Invoice Description (Item wise) |
+| Tax Details | TxnTaxDetail | taxDetails | Tax details(Invoice wise) |
+| CompanyName | CustomerRef.name | companyName | Buyers company name |
+| Buyers Email | BillEmail.Address or **\*** primaryAddress.address | buyerEmail | Buyers Email |
+| Contact Name | CustomerRef.name | contactName | Buyer Contact Name |
+| Company Email | BillEmail.Address | companyEmail | Company Email |
+| Purchase Date | MetaData.CreateTime | purchaseDate | Purchase order date |
+| Invoice State | **\*\*** "invoice_created" | state | Status of the invoice |
+| Quickbook reference | Id | qbkInvoiceId | Invoice reference for quickbook |
+| Source | **\*\*** "quickbook" | source | source of invoice (ERP system identifier) |
+
+**\*** Field belongs Customer assosiated with Invoice
+
+**\*\*** No Quickbook fields are present, Instead default values are set to Infactor invoice
