@@ -2,7 +2,7 @@
 description: 'inFactor : How to conduct POC'
 ---
 
-# Conduct a POC
+# Conduct a POC for Invoice Factoring
 
 **1. Setup a MasterNode  
 \* Prerequisite**
