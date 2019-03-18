@@ -10,7 +10,7 @@ A JSON Web Token is used to send information that can be verified and trusted by
 
 Application may request to access routes, services, or resources on behalf of that user. To do so, it uses an access token, which is in the form of a **JWT** token. user has to provide **JWT** token in header as a authorization in every subsequent request after login.
 
-{% api-method method="post" host="5.133.176.54:82/api/" path="v1.0/auth/authenticate" %}
+{% api-method method="post" host="sme.tradefinex/api/" path="v1.0/auth/authenticate" %}
 {% api-method-summary %}
 Authentication
 {% endapi-method-summary %}

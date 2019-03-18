@@ -1,6 +1,6 @@
 # API
 
-{% api-method method="post" host="5.133.176.54:82/api" path="/v1.0/Customer/MasterAdd" %}
+{% api-method method="post" host="sme.tradefinex/api" path="/v1.0/Customer/MasterAdd" %}
 {% api-method-summary %}
 Add Customers
 {% endapi-method-summary %}
@@ -127,7 +127,7 @@ Any Parameter is missing it's value or improper value is added.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="5.133.176.54:82/api" path="/v1.0/Customer/DetailsAdd" %}
+{% api-method method="post" host="sme.tradefinex/api" path="/v1.0/Customer/DetailsAdd" %}
 {% api-method-summary %}
 Other Details of Customer
 {% endapi-method-summary %}
@@ -246,7 +246,7 @@ Any parameter is missing it's value or improper value is added.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="5.133.176.54:82/api" path="/v1.0/Customer/MasterListAll/0" %}
+{% api-method method="get" host="sme.tradefinex/api" path="/v1.0/Customer/MasterListAll/0" %}
 {% api-method-summary %}
 Customer Details
 {% endapi-method-summary %}
@@ -305,7 +305,7 @@ Successful Response
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="5.133.176.54:82/api" path="/v1.0/Customer/DetailsListAll/2" %}
+{% api-method method="get" host="sme.tradefinex/api" path="/v1.0/Customer/DetailsListAll/2" %}
 {% api-method-summary %}
 Detail Customer list
 {% endapi-method-summary %}
@@ -359,7 +359,7 @@ Successful Response
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="5.133.176.54:82/api" path="/v1.0/Common/CompanyTypeList/0" %}
+{% api-method method="get" host="sme.tradefinex/api" path="/v1.0/Common/CompanyTypeList/0" %}
 {% api-method-summary %}
 Company Type List
 {% endapi-method-summary %}
@@ -401,7 +401,7 @@ Successful Response
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="5.133.176.54:82/api" path="/v1.0/Common/CountryList/0" %}
+{% api-method method="get" host="sme.tradefinex/api" path="/v1.0/Common/CountryList/0" %}
 {% api-method-summary %}
 Country List
 {% endapi-method-summary %}
@@ -444,7 +444,7 @@ Successful Response
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="5.133.176.54:82/api" path="/v1.0/Common/CurrencyList/0" %}
+{% api-method method="get" host="sme.tradefinex/api" path="/v1.0/Common/CurrencyList/0" %}
 {% api-method-summary %}
 Currency List
 {% endapi-method-summary %}
@@ -487,7 +487,7 @@ Successful Response
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="5.133.176.54:82/api" path="/v1.0/Common/CustomerTypeList/0" %}
+{% api-method method="get" host="sme.tradefinex/api" path="/v1.0/Common/CustomerTypeList/0" %}
 {% api-method-summary %}
 Customer Type List
 {% endapi-method-summary %}
@@ -544,7 +544,7 @@ Successful Response
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="5.133.176.54:82/api" path="/v1.0/Common/DesignationList/0" %}
+{% api-method method="get" host="sme.tradefinex/api" path="/v1.0/Common/DesignationList/0" %}
 {% api-method-summary %}
 Customer's Designation List
 {% endapi-method-summary %}
@@ -586,7 +586,7 @@ Successful Response
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="5.133.176.54:82/api" path="/v1.0/Common/IndustryList/0" %}
+{% api-method method="get" host="sme.tradefinex/api" path="/v1.0/Common/IndustryList/0" %}
 {% api-method-summary %}
 Industry List
 {% endapi-method-summary %}
