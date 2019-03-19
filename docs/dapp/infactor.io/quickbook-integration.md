@@ -1,10 +1,10 @@
 ---
-title: Quickbook Integration
+title: QuickBooks Integration
 ---
 
 **prerequisite**
 
- - Complete the set up of infactor.io on your local machine.
+ - Complete the set up of infactor.io on your local machine.(Clone the git repo from quickbook branch)
 
 **1. Create an Intuit Developer account**
 
@@ -56,9 +56,9 @@ Note : redirect url be exactly, http://localhost:3000/quickbook/connect
     <img src="../../../developer-html/assets/images/quickbook/qbk-dash-empty.png"/>
 </p>
 
-**6. Sync Invoices with quickbook**
+**6. Sync Invoices with QuickBooks**
 
-a. Click on connect quickbook to sync quickbook invoices. It will open a new popup window to give authorisation. Add your quickbook login details.
+a. Click on connect QuickBooks to sync QuickBooks invoices. It will open a new popup window to give authorisation. Add your QuickBooks login details.
 
 <p>
     <img src="../../../developer-html/assets/images/quickbook/qbk-login.png"/>
@@ -84,7 +84,7 @@ b. Authorise infactor to access your company data(invoices) by clicking on conne
 
 ## Invoice Mapping
 
-| Name | Quickbook Field | Infactor Field | Description |
+| Name | QuickBooks Field | Infactor Field | Description |
 | ---- | --------------- | -------------- | ----------- |
 | Invoice Number | DocNumber | invoiceNo | Unique Invoice Number |
 | Invoice Amount | TotalAmt | invoiceAmount | Total Invoice Amount |
@@ -99,9 +99,9 @@ b. Authorise infactor to access your company data(invoices) by clicking on conne
 | Company Email | BillEmail.Address | companyEmail | Company Email |
 | Purchase Date | MetaData.CreateTime | purchaseDate | Purchase order date |
 | Invoice State | **\*\*** "invoice_created" | state | Status of the invoice |
-| Quickbook reference | Id | qbkInvoiceId | Invoice reference for quickbook |
-| Source | **\*\*** "quickbook" | source | source of invoice (ERP system identifier) |
+| QuickBooks reference | Id | qbkInvoiceId | Invoice reference for QuickBooks |
+| Source | **\*\*** "QuickBooks" | source | source of invoice (ERP system identifier) |
 
 **\*** Field belongs Customer assosiated with Invoice
 
-**\*\*** No Quickbook fields are present, Instead default values are set to Infactor invoice
+**\*\*** No QuickBooks fields are present, Instead default values are set to Infactor invoice
