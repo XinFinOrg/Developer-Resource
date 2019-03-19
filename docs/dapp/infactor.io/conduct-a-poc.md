@@ -7,7 +7,7 @@ description: 'inFactor : How to conduct POC'
 **1. Setup a MasterNode  
 \* Prerequisite**
 
-1. Operating System : Ubuntu 16.04 64-bit or higher Should be facing internet directly with public IP & without NAT
+1. Operating System : Ubuntu 16.04 64-bit or higher. Should be facing internet directly with public IP & without NAT
 2. Tools: Git, Docker, Docker Compose
 3. Network Ports
 
@@ -87,7 +87,7 @@ sudo docker-compose -f docker-services.yml up -d
 
 This will start a Masternode and connect to a XinFin Testnet.
 
-You should be able to see your node listed on this page: [http://Xinfin.Network](http://xinfin.network) \(Make sure, you are connected to XinFin Testnet. If not, switch to Tesnet on top right corner\)
+You should be able to see your node listed on this page: [http://Xinfin.Network](http://xinfin.network) \(Make sure, you are connected to XinFin Testnet. If not, switch to Tesnet on top right corner.\)
 
 Your coinbase address can be found in xdcchain/coinbase.txt file.
 
@@ -99,7 +99,7 @@ Your coinbase address can be found in xdcchain/coinbase.txt file.
 
 _a. Visit_ [_http://xinfin.network/\#webWallet_](http://xinfin.network/#webWallet) _and Click on create a new wallet._
 
-_b. you can create use a web wallet or download eWallet app from Google Play Store._
+_b. You can create use a web wallet or download eWallet app from Google Play Store._
 
 _c. Create an account_
 
@@ -109,7 +109,7 @@ _d. Store your private key at a safe place \(Hardware wallet is recommended\)_
 
 **2. Buy XDC**
 
-_a. get your free XDC to use on XinFin Testnet_
+_a. Get your free XDC to use on XinFin Testnet_
 
 _b. Visit XinFin TestNet Faucet_ [_http://xinfin.network/\#getTestXDC_](http://xinfin.network/#getTestXDC)_._
 
@@ -131,44 +131,44 @@ _Add your account address and click on ‘Become a Candidate’ to become a mast
 
 **3. Factoring Process**
 
-In a typical factoring on infactor.io, there are 3 parties involved. Supplier, Buyer and Financier. Supplier is a starting point. Supplier uploads Invoice, Buyer validates invoice and Financier factors on invoice.
+In a typical factoring on infactor.io, there are 3 parties involved. Supplier, Buyer, and Financier. Supplier is a starting point. Supplier uploads Invoice, Buyer validates invoice, and Financier factors on invoice.
 
 1. Register on [http://infactor.io](http://infactor.io).
 
 _Choose your role\(Supplier, Buyer, Financier\)_
 
-_On successful registration, A wallet account is automatically created for you._
+_On successful registration, a wallet account is automatically created for you._
 
-_Note : To register, you must have uploaded KYC, staked XDC and you are a part of XDC Network by running a masternode. In case of any malicious activity the staked XDC will be frozen._
+_Note : To register, you must have uploaded KYC, staked XDC and you are a part of XDC Network by running a masternode. In case of any malicious activity, the staked XDC will be frozen._
 
 ![](../../../.gitbook/assets/infactor_login.png)
 
-1. Supplier upload invoice details and related documents.
+1. Supplier uploads invoice details and related documents.
 
 ![](../../../.gitbook/assets/infactor_createinvoice.png)
 
-1. Buyer verfies invoice authenticity and approve/reject invoice.
+1. Buyer verifies invoice authenticity and approves/rejects invoice.
 
 ![](../../../.gitbook/assets/infactor_buyer-approval.png)
 
-1. Supplier select an approved invoice for factoring, All financiers on the platform receives new factoring notification.
-2. Financer sends a factoring proposal along with related documents to supplier. The proposal includes interest rate/month and the upfront payment percent of total invoice amount
+1. Supplier selects an approved invoice for factoring. All financiers on the platform receive new factoring notification.
+2. Financer sends a factoring proposal along with related documents to supplier. The proposal includes interest rate/month and the upfront payment percent of total invoice amount.
 
 ![](../../../.gitbook/assets/infactor_factorproposal.png)
 
-1. Supplier approves the factoring proposal and the notification is sent to selected financier
-2. Financier pays first payment to supplier as per factoring criteria
+1. Supplier approves the factoring proposal and the notification is sent to selected financier.
+2. Financier pays first payment to supplier as per factoring criteria.
 
-_Note : To transfer amount, A User has to load the amount into a wallet. A deposit functionality is present in user profile section._
+_Note : To transfer amount, a user has to load the amount into a wallet. A deposit functionality is present in user profile section._
 
 ![](../../../.gitbook/assets/infactor_paysupplier.png)
 
 1. Buyer pays invoice amount to financier.
-2. A financier pays final payment\(by deducting fees\) to supplier
+2. A financier pays final payment\(by deducting fees\) to supplier.
 
 _Fee calculation is done on the basis of Interest Rate \(As per factoring criteria\) and payout date. If Buyer pays invoice amount earlier to financier, fees will be less and vice versa. The fees calculation is done on the smart contract._
 
-1. Financier and Supplier can Rate each others.
+1. Financier and Supplier can rate each other.
 
 ![](../../../.gitbook/assets/ratings.png)
 
