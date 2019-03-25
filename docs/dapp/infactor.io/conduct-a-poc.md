@@ -87,7 +87,7 @@ sudo docker-compose -f docker-services.yml up -d
 
 This will start a Masternode and connect to a XinFin Testnet.
 
-You should be able to see your node listed on this page: [http://Xinfin.Network](http://xinfin.network) \(Make sure, you are connected to XinFin Testnet. If not, switch to Tesnet on top right corner.\)
+You should be able to see your node listed on this page: [http://Xinfin.Network](http://xinfin.network) \(Make sure, you are connected to XinFin Testnet. If not, switch to Testnet on top right corner.\)
 
 Your coinbase address can be found in xdcchain/coinbase.txt file.
 
