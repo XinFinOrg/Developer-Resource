@@ -105,7 +105,7 @@ c. Create an account
 
 d. Store your private key at a safe place \(Hardware wallet is recommended\)_
 
-![](../../../.gitbook/assets/xinfin_wallet.png)
+![](../../../.gitbook/assets/xinfin_wallet.PNG)
 
 **2. Buy XDC**
 
