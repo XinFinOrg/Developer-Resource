@@ -105,3 +105,14 @@ b. Authorise infactor to access your company data(invoices) by clicking on conne
 **\*** Field belongs Customer assosiated with Invoice
 
 **\*\*** No QuickBooks fields are present, Instead default values are set to Infactor invoice
+
+**Troubleshooting**
+
+Public discussions on the technical issues. Please Join Below mention Public Chat or Group. 
+
+[Slack Public Chat](https://launchpass.com/xinfin-public), 
+
+[Telegram Chat](http://bit.do/Telegram-XinFinDev), 
+
+[Forum](https://xinfin.net)
+
