@@ -6,21 +6,21 @@ title: Smart Contracts
 
 ## **Introduction**
 
-A blockchain is a growing list of records, called blocks, which are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. By design, a blockchain is resistant to modification of the data.
+A blockchain is a growing list of records, called blocks, which are linked using cryptography. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. By design, a blockchain is resistant to the modification of the data.
 
-One of the best things about the blockchain is since it is a decentralized system that exists between all permitted parties, there is no need to pay intermediaries \(Middlemen\) and it saves you time and conflicts. Blockchains have their problems, but they are rated, undeniably, faster, cheaper, and more secure than traditional systems, which is why banks and governments are turning to them.
+Given that a blockchain is a decentralized system that exists between all permitted parties, one of the best things about it is that there is no need to pay intermediaries \(middlemen\), saves time and removes any potential conflicts among the parties. Blockchains have their problems, but they are rated undeniably faster, cheaper, and more secure than traditional systems, which is why banks and governments are turning to them.
 
 Imagine if there were some self-executing contracts, in which contracts would be converted to computer code, stored and replicated on the system and supervised by the network of computers that run the blockchain. All of this is what makes up smart contracts.
 
 ## **WHAT ARE SMART CONTRACTS?**
 
-A smart contract is a computer code running on top of a blockchain containing a set of rules under which the parties to that smart contract agree to interact with each other. If and when the predefined rules are met, the agreement is automatically enforced. The smart contract code facilitates, verifies, and enforces the negotiation or performance of an agreement or transaction. It is the simplest form of decentralized automation.
+A smart contract is a computer code running on top of a blockchain containing a set of rules under which the parties to that smart contract agree to interact with each other. If and when the predefined rules are met, the agreement is automatically enforced. The smart contract code facilitates, verifies, and enforces the negotiation or performance of an agreement or a transaction. It is the simplest form of decentralized automation.
 
-In simpler words, it is rather a form of exchange of any type like money, property etc in a **conflict-free way** without the services of a middleman so it is **trustless execution** which is an important feature that smart contracts promises.
+In simpler words, a smart contract allows exchanges of any type of assets like money and property in a **conflict-free way** without the services of a middleman. Hence it facilitates a **trustless execution** which is an important feature that is promised by a smart contract.
 
 Bitcoin was the first to support basic smart contracts in the sense that the network can transfer value from one person to another. The network of nodes will only validate transactions if certain conditions are met.
 
-Here is an example of a simple smart contract where we use simple set and get function then we increment and decrement some data.
+Here is an example of a simple smart contract where we use simple set and get functions to increment and decrement some data.
 
 ![](https://cdn-images-1.medium.com/max/800/0*t3R3g_wwyDF5YjO8)
 
@@ -28,22 +28,24 @@ Here is an example of a simple smart contract where we use simple set and get fu
 
 Various features provided by smart contracts are:
 
-1. Trust — Your documents are encrypted on a shared ledger. There’s no way that someone can say they lost it. Smart contracts allow parties to commit and bind by the conditions and rules written inside it.
-2. Transparency: Everything is written inside a smart contract with intricate details so anyone can read the details before agreeing and thus eliminates the chance of future disputes. There is no miscommunication as all the information is open with everybody.
+1. Trust: Your documents are encrypted on a shared ledger. There’s no way that someone can say they lost it. Smart contracts allow parties to commit and bind by the conditions and rules written inside it.
+
+2. Transparency: All the contractual obligations are written inside a smart contract with intricate details so anyone can read the details before agreeing, thus eliminating any chance of future disputes. There is no miscommunication as all the information is open to everyone.
+
 3. Autonomous: You’re the one making the agreement; there’s no need to rely on a broker, lawyer or other intermediaries to confirm. This also knocks out the danger of manipulation by a third party, since execution is managed automatically by the network.
 
-4.Accuracy: Automated contracts are not only faster and cheaper but also avoid the errors that come from a person making the contract who can miss some conditions but in smart contracts, it will result in an error, therefore, all the conditions are put in a detailed form.
+4.Accuracy: Automated contracts are not only faster and cheaper but also help to avoid errors that could potentially arise from a person drawing up the contract. In a manual contract, contractual conditions may be accidentally omitted or may be misleading but in smart contracts conditions are coded in a logical and detailed form, resulting in fewer errors.
 
-5.Speed: If anyone would read documents or contracts manually it would take a chunk of time, whereas smart contracts are a bunch of code used to automate task and hence save hours of time.
+5.Speed: It could take a significant amount of time to interpret, process and execute a contract manually. Smart contracts contain computer code that is executed automatically, saving significant amount of time.
 
-6.Savings: Smart contracts can help to save a lot of money as it removes the presence of an intermediary. For instance, you would pay a lawyer for your case but in smart contracts, it’s all in your hand as the code is the law.
+6.Savings: Smart contracts can provide significant savings as it removes the need for intermediaries. For instance, you would pay a lawyer for drawing up a contract manually but in smart contracts it’s all in your hand as the code is the law.
 
-7.Safety: Cryptographically encryption keeps your data safe. Since they match the highest safety standards, the level of protection involved in them allows them to be secure to use for critical processes.
+7.Safety: Your data is kept safe by a secure cryptographic encryption. Since this form of encryption boasts the highest level of data security standards, critical data and processes can be safely protected.
 
 ## **PROBLEMS**
 
 **1.No Business Ready Solution**  
- The major problem with smart contracts is that you simply cannot replace it with an upgraded one otherwise you will lose all of your smart contract bound information from the blockchain.
+A major problem with smart contracts is that you simply cannot replace it with an upgraded one otherwise you will lose all of your smart contract bound information from the blockchain.
 
 There was also a vulnerability in smart contracts, the infamous DAO hack that caused a breach of about $150 million.
 
